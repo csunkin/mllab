@@ -10,7 +10,7 @@ role: Master's Candidate
 
 # Organizations/Affiliations
 organizations:
-- name: California State University
+- name: California State University, Northridge
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
