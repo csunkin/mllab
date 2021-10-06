@@ -6,7 +6,7 @@ title: Pranavi Depur
 superuser: false
 
 # Role/position
-role: Master's Candidate
+role: Alumni
 
 # Organizations/Affiliations
 organizations:
@@ -62,7 +62,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Graduate Students
+- Alumni
 ---
 
 Pranavi Depur, B.S.  is a second-year graduate student pursuing a Masters of Science in Kinesiology degree with an emphasis in Biomechanics at California State University, Northridge. Conducting research studies as a part of the Move Learn Lab at CSUN, she has spearheaded several projects involving virtual reality, and peripheral vision training. Pranavi’s personal research involves observing the effects of synchronous versus asynchronous learning through virtual yoga classes. After completing her Bachelors of Science degree in Kinesiology at California State University, Fullerton, Pranavi obtained her 200HR Yoga Teacher certification. This further sparked her interest in looking at the effects of the body as a result of yoga training from both strength and biomechanical perspectives. In the future she aspires to complete a Doctor of Physical Therapy degree and either continue to conduct research or apply research effectively as an evidence-based practice clinician.

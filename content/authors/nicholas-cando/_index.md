@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Master's Candidate
+role: Undergraduate Student
 
 # Organizations/Affiliations
 organizations: 
@@ -49,7 +49,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Graduate Students
+- Undergraduate Students
 ---
 
 Nicholas Cando is currently in his fourth-year as an undergraduate pursuing a B.S. in Kinesiology with an emphasis in Exercise Science. This is his second year working with the lab and now serves as a Co-Lab Manager. He has assisted in multiple research projects, most of which studied the effects of virtual and augmented reality on different aspects of biomechanics. In the future, Nicholas hopes to attend graduate school in order to become a physical therapist who can one day implement the aforementioned methods of VR and AR with his future patients. Some of his hobbies outside of the lab and school include rock climbing, volleyball, and weight training.
