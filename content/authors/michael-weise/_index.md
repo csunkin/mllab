@@ -63,7 +63,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Graduate Students
+- Alumni
 ---
 
 Michael Weise, B.S.  is a first-year graduate student at California State University, Northridge majoring in kinesiology with an emphasis in motor behavior/biomechanics. In recent years Michael has been involved in various studies in areas which include his field of kinesiology, but also collaborations with the Psychology and Computer Science departments. Michael has also logged upwards of five thousand hours in various clinical settings to broaden his scope of interest. Through Michael's research, he would like to continue his interests in additional capacities of kinesiology in biomechanics and motor behavior. His future goals include applying to Ph.D. programs in the kinesiology field. His interests outside of the classroom include living an active lifestyle which include resistance training, hiking, and walking his newly adopted yellow lab, Nala.
