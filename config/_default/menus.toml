@@ -29,7 +29,7 @@
   weight = 50
 
 [[main]]
-  name = "Talks"
+  name = "Presentations"
   url = "event"
   weight = 60
   

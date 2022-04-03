@@ -1,10 +1,10 @@
 ---
 # Display name
-title: "Zoe Hakonsson"
+title: "Sedona Boren"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "zoe_hakonsson"
+- "sedona-boren"
 
 # Is this the primary user of the site?
 superuser: false
@@ -22,14 +22,15 @@ bio:
 
 # List each interest with a dash
 interests:
+- Prosthesis
 - Biomechanics
-- Motor Control
+- Locomotion
 
-#education:
-#  courses:
-#  - course: B.S. in Kinesiology - Exercise Science
-#    institution: Cal State Northridge
-#    year: 2021-Present
+education:
+  courses:
+  - course: B.S. in Kinesiology - Exercise Science
+    institution: Cal State Northridge
+    year: 2021-Present
   
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
@@ -38,7 +39,7 @@ interests:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'zoe.hakonsson.49@my.csun.edu'  # For a direct email link, use "mailto:test@example.org".
+  link: 'sedona.boren.688@my.csun.edu'  # For a direct email link, use "mailto:test@example.org".
 #- icon: linkedin
 #  icon_pack: fab
 #  link: 
@@ -54,4 +55,5 @@ highlight_name: false
 user_groups:
 - Undergraduate Students
 ---
-Zoe Hakonsson is a fourth year undergraduate student majoring in Kinesiology with an emphasis in Exercise Science and is a new member of the Move Learn Lab. As a life long lover of movement she has a passion for teaching and healing through movement. She is currently pursuing her Pilates trainer certification through Balanced Body and will pursue her medical doctorate upon graduation. 
+
+As a graduating senior at CSUN, Sedona is majoring in Kinesiology with a focus in Exercise Science. Receiving hands-on experience at Two Trees Therapy, Sedona fell in love with the environment of aiding people’s recovery process. Already expressing her interests in physical therapy during high school, she really took an interest in biomechanics and exercise physiology here at CSUN. Further expanding her knowledge and interests in human movement she discovered she specifically enjoyed working with the adaptive populations and has been a pushing off point to further research adaptive physical therapy in graduate school. Working in the Move Learn Lab has been an eye opening experience to new technology and is currently researching how augmented reality can improve gait function.

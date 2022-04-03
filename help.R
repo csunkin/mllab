@@ -2,7 +2,7 @@
 hugo new  --kind post post/interested-in-trying-VR
 
 # add authors
-hugo new --kind authors authors/belle-pearl
+hugo new --kind authors authors/Zoe_Hakonsson
 
 # add publications
 academic import --bibtex content/authors/rosa-angulo-barroso/rosa-angulo-barroso-2021.04.23.bib

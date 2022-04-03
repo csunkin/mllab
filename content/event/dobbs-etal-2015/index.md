@@ -24,7 +24,7 @@ all_day: false
 publishDate: 2021-04-27T10:27:24-07:00
 
 authors: [ian-dobbs, devyani-kohli, admin]
-tags: []
+tags: [Assessment tool, Fundamental Movement Skills]
 
 # Is this a featured event? (true/false)
 featured: false
@@ -34,21 +34,21 @@ featured: false
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: ""
+  focal_point: "Smart"
   preview_only: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+ - name: Follow
+   url: https://twitter.com/ofurtado
+   icon_pack: fab
+   icon: twitter
 
 # Optional filename of your slides within your event's folder or a URL.
 url_slides:
 url_code:
-url_pdf:
+url_pdf: 
 url_video:
 
 # Markdown Slides (optional).
@@ -63,5 +63,5 @@ slides: ""
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: [of-]
 ---

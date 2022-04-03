@@ -1,10 +1,10 @@
 ---
 # Display name
-title: "Ethel Tabada"
+title: "Zoe Hakonsson"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "ethel_tabada"
+- "zoe-hakonsson"
 
 # Is this the primary user of the site?
 superuser: false
@@ -22,23 +22,23 @@ bio:
 
 # List each interest with a dash
 interests:
-- Motor Behavior
-- Motor Development
+- Biomechanics
+- Motor Control
 
-education:
-  courses:
-  - course: B.S. in Kinesiology - Exercise Science
-    institution: Cal State Northridge
-    year: 2017-Present
+#education:
+#  courses:
+#  - course: B.S. in Kinesiology - Exercise Science
+#    institution: Cal State Northridge
+#    year: 2021-Present
   
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-# social:
-#- icon: envelope
-#  icon_pack: fas
-#  link: ''  # For a direct email link, use "mailto:test@example.org".
+social:
+- icon: envelope
+  icon_pack: fas
+  link: 'zoe.hakonsson.49@my.csun.edu'  # For a direct email link, use "mailto:test@example.org".
 #- icon: linkedin
 #  icon_pack: fab
 #  link: 
@@ -54,5 +54,4 @@ highlight_name: false
 user_groups:
 - Undergraduate Students
 ---
-
-Ethel is currently in her 4th year majoring in Kinesiology with an emphasis of Exercise Science. She currently works as a front desk supervisor in the Student Recreation Center and volunteers as an activities' coach for children with chronic illnesses. After she finishes her Bachelor's degree, she hopes to get into an ADN-RN program in order to become a Cardiac Rehab RN.
+Zoe Hakonsson is a fourth year undergraduate student majoring in Kinesiology with an emphasis in Exercise Science and is a new member of the Move Learn Lab. As a life long lover of movement she has a passion for teaching and healing through movement. She is currently pursuing her Pilates trainer certification through Balanced Body and will pursue her medical doctorate upon graduation. 
