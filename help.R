@@ -11,7 +11,7 @@ academic import --bibtex content/authors/rosa-angulo-barroso/rosa-angulo-barroso
 hugo new  --kind project project/of-psychometric-psfms
 
 # add talks
-hugo new  --kind event event/2015-wskw-dobbs-kohli
+hugo new  --kind event event/20220404-test
 
 # miscellaneous
 # internal links - folder before
@@ -22,3 +22,7 @@ hugo new  --kind event event/2015-wskw-dobbs-kohli
 
 # to mention an author
 {{% mention "username" %}}
+
+# to update theme - use the terminal
+hugo mod get -u
+hugo mod get -u ./... # latest developments

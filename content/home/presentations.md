@@ -8,7 +8,7 @@ title: Latest Presentations
 subtitle: Oral/Poster
 
 content:
-  count: 5
+  count: 4
   filters:
     author: ""
     category: ""
@@ -19,6 +19,8 @@ content:
   order: desc
   page_type: event
 design:
-  view: 3
+  view: 2
   columns: "2"
 ---
+
+{{< cta cta_text="All presentations here" cta_link="/event/" cta_new_tab="false" >}}
