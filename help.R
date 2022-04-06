@@ -10,8 +10,13 @@ academic import --bibtex content/authors/rosa-angulo-barroso/rosa-angulo-barroso
 # add projects
 hugo new  --kind project project/of-psychometric-psfms
 
+<<<<<<< Updated upstream
 # add talks
 hugo new  --kind event event/20220404-test
+=======
+# add event: Oral Presentation or Poster
+hugo new  --kind event event/test
+>>>>>>> Stashed changes
 
 # miscellaneous
 # internal links - folder before
