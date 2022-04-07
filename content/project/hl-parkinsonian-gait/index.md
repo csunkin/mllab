@@ -3,7 +3,7 @@
 
 title: "Effects of action-relevant augmented reality visual cues on Parkinsonian gait"
 summary: ""
-authors: [jacob-w-hinkel-lipsker]
+authors: [jacob-hl]
 tags: [Hinkel-Lipsker]
 categories: []
 date: 2021-04-24T11:57:59-07:00

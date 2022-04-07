@@ -3,7 +3,7 @@
 
 title: "Using new technology to optimize reader experiences"
 summary: ""
-authors: [jacob-w-hinkel-lipsker]
+authors: [jacob-hl]
 tags: [Hinkel-Lipsker]
 categories: []
 date: 2021-04-24T11:57:13-07:00

@@ -4,8 +4,7 @@
 title: "Factors associated with the development of basic motor skills and physical fitness in elementary school students"
 summary: ""
 authors: [admin, Oldemar Mazzardo]
-tags: [Furtado, Basic Movement Skills, Physical Fitness]
-categories: []
+tags: [Furtado]
 date: 2021-03-23T23:05:09-07:00
 
 # Optional external URL for project (replaces project detail page).

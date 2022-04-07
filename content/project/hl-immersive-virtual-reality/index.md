@@ -3,7 +3,7 @@
 
 title: "An investigation of the impact of immersive virtual reality practice on visual and mechanical abilities"
 summary: ""
-authors: [jacob-w-hinkel-lipsker]
+authors: [jacob-hl]
 tags: [Hinkel-Lipsker]
 categories: []
 date: 2021-04-24T11:56:48-07:00

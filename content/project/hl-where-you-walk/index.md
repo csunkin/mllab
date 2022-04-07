@@ -3,7 +3,7 @@
 
 title: "Watch where you walk: Human visual perception and motion of the lower limbs while navigating obstacles in a fatigued state"
 summary: ""
-authors: [jacob-w-hinkel-lipsker]
+authors: [jacob-hl]
 tags: [Hinkel-Lipsker]
 categories: []
 date: 2021-04-24T11:54:42-07:00

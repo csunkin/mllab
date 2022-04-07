@@ -4,7 +4,7 @@
 title: "Development and psychometric evaluation of the PSFMS"
 summary: ""
 authors: [admin]
-tags: [assessment, motor skills]
+tags: [Furtado]
 categories: []
 date: 2022-04-02T17:50:49-07:00
 

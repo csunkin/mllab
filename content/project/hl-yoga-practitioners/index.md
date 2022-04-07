@@ -3,7 +3,7 @@
 
 title: "A comparison of various distance training methods for novice yoga practitioners"
 summary: ""
-authors: [jacob-w-hinkel-lipsker]
+authors: [jacob-hl]
 tags: [Hinkel-Lipsker]
 categories: []
 date: 2021-04-24T10:55:14-07:00

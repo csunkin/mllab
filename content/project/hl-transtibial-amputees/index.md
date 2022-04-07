@@ -3,7 +3,7 @@
 
 title: "An analysis of compensation patterns of transtibial amputees during static neutral yoga postures"
 summary: ""
-authors: [jacob-w-hinkel-lipsker]
+authors: [jacob-hl]
 tags: [Hinkel-Lipsker]
 categories: []
 date: 2021-04-24T11:55:49-07:00
