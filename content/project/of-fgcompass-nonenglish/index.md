@@ -3,7 +3,7 @@
 
 title: "Transcultural validation of the FG-COMPASS"
 summary: ""
-authors: [admin]
+authors: [admin, Oldemar Mazzardo]
 tags: [Furtado]
 categories: []
 date: 2021-04-23T21:22:38-07:00
@@ -21,11 +21,11 @@ image:
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+ - name: Follow
+   url: https://twitter.com/ofurtado
+   icon_pack: fab
+   icon: twitter
 
 url_code: ""
 url_pdf: ""

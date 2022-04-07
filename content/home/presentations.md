@@ -23,4 +23,4 @@ design:
   columns: "2"
 ---
 
-{{< cta cta_text="All presentations here" cta_link="/event/" cta_new_tab="false" >}}
+{{< cta cta_text="All Presentations" cta_link="/event/" cta_new_tab="false" >}}

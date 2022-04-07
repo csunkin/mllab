@@ -5,7 +5,7 @@ title: Jacob W Hinkel-Lipsker
 # Is this the primary user of the site?
 superuser: false
 authors:
- - jake-hl
+ - jacob-hl
 
 # Role/position
 role: Assistant Professor
