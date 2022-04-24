@@ -5,23 +5,19 @@ hugo new  --kind post post/interested-in-trying-VR
 hugo new --kind authors authors/Zoe_Hakonsson
 
 # add publications
-academic import --bibtex content/authors/rosa-angulo-barroso/rosa-angulo-barroso-2021.04.23.bib
+academic import --bibtex content/authors/jacob-hl/of-publications.bib
 
 # add projects
 hugo new  --kind project project/of-psychometric-psfms
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 # add talks
 hugo new  --kind event event/20220404-test
-=======
+
 # add event: Oral Presentation or Poster
 hugo new  --kind event event/test
->>>>>>> Stashed changes
-=======
+
 # add event: Oral Presentation or Poster
 hugo new  --kind event event/test
->>>>>>> Stashed changes
 
 # miscellaneous
 # internal links - folder before

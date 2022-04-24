@@ -1,14 +1,14 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: The relationship of movement skills with habitual and organized physical activity
-  in seven and eight-year-old children
+title: The Relationship of Movement Skills with Habitual and Organized Physical Activity
+  in Seven and Eight-Year-Old Children
 subtitle: ''
 summary: ''
 authors:
 - Oldemar Mazzardo
 - Fábio Eduardo Fontana
-- admin
+- Ovande Furtado Jr
 - Jere D. Gallagher
 tags: []
 categories: []
@@ -31,7 +31,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-03-19T08:01:50.899427Z'
+publishDate: '2022-04-10T19:59:31.491276Z'
 publication_types:
 - '2'
 abstract: 'PURPOSE: To verify the association of motor skills with habitual and organized
@@ -47,3 +47,4 @@ publication: '*Pensar a Prática*'
 url_pdf: https://www.revistas.ufg.br/fef/article/view/42360/pdf
 doi: 10.5216/rpp.v21i1.42360
 ---
+<span class="__dimensions_badge_embed__" data-doi="10.5216/rpp.v21i1.42360"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>

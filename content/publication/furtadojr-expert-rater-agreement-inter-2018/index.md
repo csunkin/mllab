@@ -6,12 +6,12 @@ title: Expert-Rater Agreement and Inter-/Intrarater Reliability for the Furtado�
 subtitle: ''
 summary: ''
 authors:
-- admin
+- Ovande Furtado Jr
 - Jere D. Gallagher
 tags: []
 categories: []
 date: '2018-01-01'
-lastmod: 2021-03-19T01:01:50-07:00
+lastmod: 2022-04-09T22:20:59-07:00
 featured: false
 draft: false
 
@@ -28,18 +28,18 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: [fgcompass-english]
-publishDate: '2021-03-19T08:01:50.529564Z'
+projects: []
+publishDate: '2022-04-10T19:59:30.604187Z'
 publication_types:
 - '2'
-abstract: Fundamental movement skills (FMS) play a crucial role in a child’s motor
+abstract: Fundamental movement skills (FMS) play a crucial role in a child's motor
   skill development, as their mastery is related to the acquisition and mastery of
-  specialized sport skills and to a child’s general health through the prevention
+  specialized sport skills and to a child's general health through the prevention
   of weight gain and increased level of physical activity. Thus, the accurate and
   reliable measurement of FMS is of related importance. This article presents the
   results of two studies intended to assess expert-rater agreement and inter-/intrarater
   scoring reliability in the administration of a new observational FMS instrument,
-  the Furtado–Gallagher Computerized Observational Movement Pattern Assessment System
+  the Furtado– Gallagher Computerized Observational Movement Pattern Assessment System
   (FG-COMPASS). In Study 1, we found that four of the six scales that underwent modifications
   in a previous study yielded acceptable expert agreement, permitting their retention
   in the revised test, while the two remaining scales measuring side sliding and leaping
@@ -51,13 +51,13 @@ abstract: Fundamental movement skills (FMS) play a crucial role in a child’s m
   Locomotor subtest, (b) assess the impact of varying the number of trials given when
   assessing motor skill performances in life settings, and (c) test the feasibility
   of the web-based training tool and mobile version of the instrument., Fundamental
-  movement skills (FMS) play a crucial role in a child’s motor skill development,
+  movement skills (FMS) play a crucial role in a child's motor skill development,
   as their mastery is related to the acquisition and mastery of specialized sport
-  skills and to a child’s general health through the prevention of weight gain and
+  skills and to a child's general health through the prevention of weight gain and
   increased level of physical activity. Thus, the accurate and reliable measurement
   of FMS is of related importance. This article presents the results of two studies
   intended to assess expert-rater agreement and inter-/intrarater scoring reliability
-  in the administration of a new observational FMS instrument, the Furtado–Gallagher
+  in the administration of a new observational FMS instrument, the Furtado– Gallagher
   Computerized Observational Movement Pattern Assessment System (FG-COMPASS). In Study
   1, we found that four of the six scales that underwent modifications in a previous
   study yielded acceptable expert agreement, permitting their retention in the revised
@@ -71,6 +71,5 @@ abstract: Fundamental movement skills (FMS) play a crucial role in a child’s m
   assessing motor skill performances in life settings, and (c) test the feasibility
   of the web-based training tool and mobile version of the instrument.
 publication: '*Perceptual and Motor Skills*'
-url_pdf: https://doi.org/10.1177/0031512518769205
 doi: 10.1177/0031512518769205
 ---

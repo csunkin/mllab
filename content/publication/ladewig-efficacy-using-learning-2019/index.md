@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: The efficacy of using learning cues to teach children perform the backhand
+title: The Efficacy of Using Learning Cues to Teach Children Perform the Backhand
 subtitle: ''
 summary: ''
 authors:
@@ -9,8 +9,8 @@ authors:
 - Isabelle Brusamolin Boell
 - Beatriz Oliveira Pereira
 - Adilson Hernandes Spinelli
-- Luiz Gustavo Franz
-- admin
+- ', Luiz Gustavo Franz'
+- Ovande Furtado Jr
 tags: []
 categories: []
 date: '2019-01-01'
@@ -32,7 +32,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-03-19T08:01:51.085543Z'
+publishDate: '2022-04-10T19:59:31.178265Z'
 publication_types:
 - '2'
 abstract: Attention is very important for learning. Children are known for not paying

@@ -7,7 +7,7 @@ widget: people
 headless: true
 
 # Order that this section appears on the page.
-weight: 68
+weight: 
 
 title: People
 subtitle: Meet the Lab Members

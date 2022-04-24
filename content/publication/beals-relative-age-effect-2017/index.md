@@ -5,9 +5,9 @@ title: Relative Age Effect and Academic Timing in American Junior College Baseba
 subtitle: ''
 summary: ''
 authors:
-- Thomas C Beals
-- admin
-- Fabio E Fontana
+- Thomas C. Beals
+- Ovande Furtado Jr
+- Fabio E. Fontana
 tags: []
 categories: []
 date: '2017-01-01'
@@ -29,13 +29,13 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-03-19T08:01:50.712559Z'
+publishDate: '2022-04-10T19:59:29.629732Z'
 publication_types:
 - '2'
 abstract: Previous research has shown that older athletes within age groupings are
   often perceived to be more talented simply due to advanced maturity, leading to
   biased selection in higher levels of sports competition, now commonly termed relative
-  age effect (RAE). This study’s goals were to determine whether (a) RAE influenced
+  age effect (RAE). This study's goals were to determine whether (a) RAE influenced
   the selection of junior college baseball participants and (b) academic timing (Glamser
   & Marciani, 1992), in which academic status determines age groupings more than strict
   age guidelines for college sports, influenced the formation of RAE. Participants
