@@ -1,3 +1,5 @@
+# The commands below should be used in terminal
+
 # create posts
 hugo new  --kind post post/interested-in-trying-VR
 
@@ -5,7 +7,7 @@ hugo new  --kind post post/interested-in-trying-VR
 hugo new --kind authors authors/Zoe_Hakonsson
 
 # add publications
-academic import --bibtex content/authors/jacob-hl/of-publications.bib
+academic import --bibtex content/authors/jacob-hl/hl-publications.bib
 
 # add projects
 hugo new  --kind project project/of-psychometric-psfms
