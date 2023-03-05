@@ -45,7 +45,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Undergraduate Students
+- Alumni
 ---
 
 Andrew is a 3rd-year undergraduate student pursuing a B.S. in Family Consumer Sciences with an option in Nutrition and Dietetics. He is keen on becoming a Registered Dietician and a Certified Strength and Conditioning Specialist so that he can work with athletes. He just transferred from LA Valley College where he earned an AA in Kinesiology and played baseball. While playing for LAVC, he had the opportunity to work with equipment that provided swing metrics to optimize offensive performance. When he has free time, he can be found camping in a forest, playing guitar with his band, or going all out at a Brazilian jiu-jitsu gym.

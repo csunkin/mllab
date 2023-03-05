@@ -53,7 +53,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Undergraduate Students
+- Alumni
 ---
 
 As a graduating senior at CSUN, Sedona is majoring in Kinesiology with a focus in Exercise Science. Receiving hands-on experience at Two Trees Therapy, Sedona fell in love with the environment of aiding people’s recovery process. Already expressing her interests in physical therapy during high school, she really took an interest in biomechanics and exercise physiology here at CSUN. Further expanding her knowledge and interests in human movement she discovered she specifically enjoyed working with the adaptive populations and has been a pushing off point to further research adaptive physical therapy in graduate school. Working in the Move Learn Lab has been an eye opening experience to new technology and is currently researching how augmented reality can improve gait function.

@@ -1,10 +1,10 @@
 ---
 # Display name
-title: "Gwendolyn Retzinger"
+title: "Jose Diaz"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "gwendolyn-retzinger"
+- "jose-diaz"
 
 # Is this the primary user of the site?
 superuser: false
@@ -22,27 +22,31 @@ bio:
 
 # List each interest with a dash
 interests:
-- Motor Behavior
 - Biomechanics
-- Exercise Physiology
+- Motor Behavior
+- Strength Training
+
 
 education:
   courses:
-  - course: M.S. in Kinesiology - Exercise Science
+  - course: M.S. in Kinesiology
     institution: Cal State Northridge
     year: 2023-present
-  - course: B.S. in Kinesiology
+  - course: B.S in Kinesiology - Exercise Science
     institution: Cal State Northridge
     year: 2019-2022
+
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: 'mailto:gwendolyn.retzinger.803@my.csun.edu'  # For a direct email link, use "mailto:test@example.org".
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# - icon: cv
+#   icon_pack: ai
+#   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -56,4 +60,4 @@ user_groups:
 - Graduate Students
 ---
 
-Gwen is in her last semester as a Kinesiology undergraduate student at California State University, Northridge. She is a Peer Learning Facilitator and finds great joy in helping other students succeed. This is her 3rd semester in the lab and is proud to be the current lab manager. Gwen will be entering the CSUN Master’s program in Kinesiology in Spring 2023, and plans to continue being involved in the lab. She is ultimately hoping to pursue a career enriched with biomechanics research. Outside of the lab, she is a circus artist and particularly enjoys juggling, hooping, and slacklining.
+Jose is an undergraduate Kinesiology major attending California State University, Northridge. His passion for strength training and the sport of powerlifting naturally led him toward a fascination in human movement, especially as it relates to performance in strength sports. Jose’s growing interest in the field of biomechanics pushed him to intern in two biomechanics research laboratories and eventually gain admittance to the Master of Science in Kinesiology program at CSUN in the biomechanics subdiscipline. Although his journey in biomechanics research has just begun, he hopes to someday provide something valuable to the field as a whole.

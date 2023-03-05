@@ -55,4 +55,4 @@ highlight_name: false
 user_groups:
 - Alumni
 ---
-Mackinsey is currently a business owner at Evolve Youth Fitness. She completed her master's degree in Kinesiology (Motor Development) under the mentorship of [Dr. Furtado](../ovande-furtado-jr/).
+Mackinsey is currently a business owner at Evolve Youth Fitness.

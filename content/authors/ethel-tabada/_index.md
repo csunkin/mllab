@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Undergraduate Student
+role: Alumni
 
 # Organizations/Affiliations
 organizations:
@@ -52,7 +52,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Undergraduate Students
+- Alumni
 ---
 
 Ethel is currently in her 4th year majoring in Kinesiology with an emphasis of Exercise Science. She currently works as a front desk supervisor in the Student Recreation Center and volunteers as an activities' coach for children with chronic illnesses. After she finishes her Bachelor's degree, she hopes to get into an ADN-RN program in order to become a Cardiac Rehab RN.

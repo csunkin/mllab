@@ -6,7 +6,7 @@ title: Gevork 'Gev' Arzumanyan
 avatar_filename: avatar.jpg
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Undergraduate Student
+role: Alumni
 
 social:
   - icon: linkedin
@@ -15,7 +15,7 @@ social:
 email: ""
 
 user_groups:
-  - Undergraduate Students
+  - Alumni
 
 highlight_name: false
 ---

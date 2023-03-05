@@ -1,20 +1,20 @@
 ---
 # Display name
-title: "Belle Pearl Ponce de Leon"
+title: "Rodolfo Lua Perez"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "belle-pearl"
+- "rodolfo-lua-perez"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Alumni
+role: Undergraduate Student
 
 # Organizations/Affiliations
 organizations:
-- name: Cal State Northridge
+- name: 
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -22,37 +22,23 @@ bio:
 
 # List each interest with a dash
 interests:
-- Motor control - teaching the novice practitioner
-- The effects of a chronic caloric surplus, state of hyperlipidemia and habitual sedentariness on the insulin signaling cascade
-- The effects of virtual and augmented realities on movement patterns.
+- Augmented Reality / Virtual Reality in biomechanics
+- Rehabilitation and Injury Prevention
+
 
 education:
   courses:
-  - course: M.S. in Kinesiology - Exercise Physiology
-    institution: Cal State Northridge
-    year: 2023
-  - course: B.S. in Kinesiology - Exercise Science
-    institution: Cal State Northridge
-    year: 2017-2020
-  
+  - course: B.S. in Kinesiology – Exercise Science
+    institution: California State University, Northridge
+    year: 2019-present
+
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-# social:
-#- icon: envelope
-#  icon_pack: fas
-#  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-#- icon: twitter
-#  icon_pack: fab
-#  link: https://twitter.com/USERNAME
-#- icon: google-scholar
-#  icon_pack: ai
-#  link: https://scholar.google.com/citations?user=PERSON-ID
-#- icon: github
-#  icon_pack: fab
-#  link: https://github.com/USERNAME
+social:
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -68,5 +54,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Alumni
+- Undergraduate Students
 ---
+
+Rodolfo Lua-Perez is a 4th year undergraduate student at CSUN, majoring in kinesiology with an emphasis in Exercise Science and is a new member of the Move-Learn Lab. This is his first semester working with the Move-Learn Lab and is currently excited to be able to assist with the AR lifting study and hopefully upcoming projects. In the future Rodolfo hopes to obtain his doctorate degree in either Physical therapy or Occupational Therapy but as of right now wants to broaden his horizons in the field of kinesiology. Rodolfo’s interests outside of school are weightlifting, building PCs, playing video games, and rock climbing.

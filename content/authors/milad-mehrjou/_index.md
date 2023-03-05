@@ -1,16 +1,16 @@
 ---
 # Display name
-title: "Gwendolyn Retzinger"
+title: "Milad Mehrjou"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "gwendolyn-retzinger"
+- "milad-mehrjou"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Master's Candidate
+role: Undergraduate Student
 
 # Organizations/Affiliations
 organizations:
@@ -22,27 +22,27 @@ bio:
 
 # List each interest with a dash
 interests:
-- Motor Behavior
+- Motor Control
 - Biomechanics
-- Exercise Physiology
+
 
 education:
   courses:
-  - course: M.S. in Kinesiology - Exercise Science
+  - course: B.S. in Kinesiology - Exercise Science
     institution: Cal State Northridge
-    year: 2023-present
-  - course: B.S. in Kinesiology
-    institution: Cal State Northridge
-    year: 2019-2022
+    year: 2020-present
+
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: 'mailto:gwendolyn.retzinger.803@my.csun.edu'  # For a direct email link, use "mailto:test@example.org".
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# - icon: cv
+#   icon_pack: ai
+#   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -53,7 +53,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Graduate Students
+- Undergraduate Students
 ---
 
-Gwen is in her last semester as a Kinesiology undergraduate student at California State University, Northridge. She is a Peer Learning Facilitator and finds great joy in helping other students succeed. This is her 3rd semester in the lab and is proud to be the current lab manager. Gwen will be entering the CSUN Master’s program in Kinesiology in Spring 2023, and plans to continue being involved in the lab. She is ultimately hoping to pursue a career enriched with biomechanics research. Outside of the lab, she is a circus artist and particularly enjoys juggling, hooping, and slacklining.
+Milad is currently a fourth year student at california state university of northridge. He is majored in kinesiology with the emphasis on exercise science. This is his first semester in movement lab, and he found his interest in human movement while being involved in his biomechanics class. He is also interested in the  rehabilitation process after injury or surgery, and he wants to become physical therapist and use his knowledge to help people in regaining their strength and mobility. He is also interested in watching movies and following sports especially soccer.

@@ -1,16 +1,16 @@
 ---
 # Display name
-title: "Gwendolyn Retzinger"
+title: "Summer Diaz"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "gwendolyn-retzinger"
+- "summer-diaz"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Master's Candidate
+role: Undergraduate Student
 
 # Organizations/Affiliations
 organizations:
@@ -23,26 +23,28 @@ bio:
 # List each interest with a dash
 interests:
 - Motor Behavior
-- Biomechanics
-- Exercise Physiology
+- Adaptive Therapeutic Exercise
+- Motor Learning
+
 
 education:
   courses:
-  - course: M.S. in Kinesiology - Exercise Science
+  - course: B.S. in Kinesiology- Exercise Science
     institution: Cal State Northridge
-    year: 2023-present
-  - course: B.S. in Kinesiology
-    institution: Cal State Northridge
-    year: 2019-2022
+    year: 2018-present
+
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: 'mailto:gwendolyn.retzinger.803@my.csun.edu'  # For a direct email link, use "mailto:test@example.org".
+
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# - icon: cv
+#   icon_pack: ai
+#   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -53,7 +55,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Graduate Students
+- Undergraduate Students
 ---
 
-Gwen is in her last semester as a Kinesiology undergraduate student at California State University, Northridge. She is a Peer Learning Facilitator and finds great joy in helping other students succeed. This is her 3rd semester in the lab and is proud to be the current lab manager. Gwen will be entering the CSUN Master’s program in Kinesiology in Spring 2023, and plans to continue being involved in the lab. She is ultimately hoping to pursue a career enriched with biomechanics research. Outside of the lab, she is a circus artist and particularly enjoys juggling, hooping, and slacklining.
+As an individual who is fascinated about movement and studying the body, Summer Diaz decided to major in Kinesiology. Her interest in movement began in high school when she took her first physiology course. She plans on graduating from California State University, Northridge at the end of Spring 2023 with a B.S. in Exercise Science. Within the next few months, Summer will be applying to DPT programs to pursue a career as a Physical Therapist. She is also open to new career paths and experiences such as research. When she isn’t studying Summer enjoys outdoor sports such as, soccer, hiking and biking.

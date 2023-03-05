@@ -52,6 +52,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Undergraduate Students
+- Alumni
 ---
 Zoe Hakonsson is a fourth year undergraduate student majoring in Kinesiology with an emphasis in Exercise Science and is a new member of the Move Learn Lab. As a life long lover of movement she has a passion for teaching and healing through movement. She is currently pursuing her Pilates trainer certification through Balanced Body and will pursue her medical doctorate upon graduation. 

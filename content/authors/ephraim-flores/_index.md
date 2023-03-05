@@ -45,6 +45,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Undergraduate Students
+- Alumni
 ---
 Ephraim is a 4th-year undergraduate student at CSUN majoring in Kinesiology with an emphasis in Exercise Science. He hopes to become a physical therapist in the future. This is his first semester in the Move-Learn Lab and has yet to work on a project. Outside of academics, Ephraim likes to watch anime, play video games, or sometimes listen to leftist political commentary.

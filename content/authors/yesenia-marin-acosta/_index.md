@@ -44,7 +44,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Undergraduate Students
+- Alumni
 ---
 
 Yesenia is entering her senior year at CSUN as a Kinesiology major with a focus in Exercise Science. She currently works as a pool lifeguard and works with kids in teaching them how to swim. She hopes to combine her passion for working with kids and helping others as a pediatric physical therapist. She is new to the lab this semester and is eager to get started on upcoming projects.

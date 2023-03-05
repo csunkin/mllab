@@ -1,20 +1,20 @@
 ---
 # Display name
-title: "Belle Pearl Ponce de Leon"
+title: "Thomas Ruswick"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "belle-pearl"
+- "thomas-ruswick"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Alumni
+role: Undergraduate Student
 
 # Organizations/Affiliations
 organizations:
-- name: Cal State Northridge
+- name: 
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -22,37 +22,21 @@ bio:
 
 # List each interest with a dash
 interests:
-- Motor control - teaching the novice practitioner
-- The effects of a chronic caloric surplus, state of hyperlipidemia and habitual sedentariness on the insulin signaling cascade
-- The effects of virtual and augmented realities on movement patterns.
+- Exercise Physiology
+- Motivational Psychology
+
 
 education:
   courses:
-  - course: M.S. in Kinesiology - Exercise Physiology
-    institution: Cal State Northridge
-    year: 2023
   - course: B.S. in Kinesiology - Exercise Science
     institution: Cal State Northridge
-    year: 2017-2020
+    year: 2020-present
   
-
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-# social:
-#- icon: envelope
-#  icon_pack: fas
-#  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-#- icon: twitter
-#  icon_pack: fab
-#  link: https://twitter.com/USERNAME
-#- icon: google-scholar
-#  icon_pack: ai
-#  link: https://scholar.google.com/citations?user=PERSON-ID
-#- icon: github
-#  icon_pack: fab
-#  link: https://github.com/USERNAME
+social:
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -68,5 +52,9 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Alumni
+- Undergraduate Students
 ---
+
+After losing over 130 pounds, Rex has been passionate in studying human movement and it's application as medicine to improve health and transform lives. Currently an undergraduate kinesiology student at CSUN, he is specializing in exercise science and enjoying the ride. With the ultimate goal of inspiring and empowering individuals to live longer, happier and healthier lives, he hopes to make the fitness industry more inclusive and less intimidating by sharing his weight loss journey and helping others advance towards their own exercise goals.
+Rex is a personal trainer and performance artist with a passion for dance, music, games, play, and nature. His simplified purpose in life is to cultivate joy and share it with as many people as possible, using movement as the medium.
+
