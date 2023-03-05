@@ -1,21 +1,21 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: A method for automated control of belt velocity changes with an instrumented
-  treadmill
+title: A Method for Automated Control of Belt Velocity Changes with an Instrumented
+  Treadmill
 subtitle: ''
 summary: ''
 authors:
 - Jacob W Hinkel-Lipsker
-- Michael E Hahn
+- M.E. Hahn
 tags:
-- '"Asymmetric walking"'
-- '"Gait"'
-- '"Instrumented treadmill"'
-- '"Split-belt"'
+- Asymmetric walking
+- Gait
+- Instrumented treadmill
+- Split-belt
 categories: []
 date: '2016-01-01'
-lastmod: 2021-04-08T13:15:31-07:00
+lastmod: 2023-03-04T22:59:58-08:00
 featured: false
 draft: false
 
@@ -33,7 +33,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-04-08T20:15:31.796095Z'
+publishDate: '2023-03-05T06:59:58.220970Z'
 publication_types:
 - '2'
 abstract: © 2015 Elsevier Ltd. Increased practice difficulty during asymmetrical split-belt

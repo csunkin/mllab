@@ -1,8 +1,8 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'The Trade-Off of Virtual Reality Training for Dart Throwing: A Facilitation
-  of Perceptual-Motor Learning With a Detriment to Performance'
+title: 'The Trade-off of Virtual Reality Training for Dart Throwing: A Facilitation
+  of Perceptual-Motor Learning with a Detriment to Performance'
 subtitle: ''
 summary: ''
 authors:
@@ -15,7 +15,7 @@ authors:
 tags: []
 categories: []
 date: '2020-01-01'
-lastmod: 2021-04-08T13:15:31-07:00
+lastmod: 2023-03-04T22:59:57-08:00
 featured: false
 draft: false
 
@@ -33,7 +33,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-04-08T20:15:31.249152Z'
+publishDate: '2023-03-05T06:59:57.529183Z'
 publication_types:
 - '2'
 abstract: Advancements in virtual reality (VR) technology now allow for the creation
@@ -62,6 +62,5 @@ abstract: Advancements in virtual reality (VR) technology now allow for the crea
   of virtual learning environments detract from transfer of an acquired sport skill
   to the real world. Additional work is warranted to further understand how perceptual-motor
   behaviors are acquired differently in virtual spaces.
-publication: '*Frontiers in Sports and Active Living*'
-url_pdf: https://www.frontiersin.org/article/10.3389/fspor.2020.00059
+publication: '*Frontiers in sports and active living*'
 ---

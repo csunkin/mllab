@@ -1,12 +1,12 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Altered Spatiotemporal Gaze Dynamics During Unexpected Obstacle Negotiation
+title: Altered Spatiotemporal Gaze Dynamics during Unexpected Obstacle Negotiation
   in a Fatigued State
 subtitle: ''
 summary: ''
 authors:
-- Jacob W. Hinkel-Lipsker
+- Jacob W Hinkel-Lipsker
 - Nicole M. Stoehr
 - Pranavi L. Depur
 - Michael A. Weise
@@ -16,7 +16,7 @@ authors:
 tags: []
 categories: []
 date: '2022-01-01'
-lastmod: 2022-04-09T20:32:55-07:00
+lastmod: 2023-03-04T22:59:59-08:00
 featured: false
 draft: false
 
@@ -34,7 +34,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-04-10T03:32:54.920850Z'
+publishDate: '2023-03-05T06:59:59.536041Z'
 publication_types:
 - '2'
 abstract: Humans use their peripheral vision during locomotion to perceive an approaching

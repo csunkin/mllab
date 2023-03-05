@@ -1,22 +1,22 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Coordinative structuring of gait kinematics during adaptation to variable and
-  asymmetric split-belt treadmill walking – A principal component analysis approach
+title: Coordinative Structuring of Gait Kinematics during Adaptation to Variable and
+  Asymmetric Split-Belt Treadmill Walking – A Principal Component Analysis Approach
 subtitle: ''
 summary: ''
 authors:
 - Jacob W Hinkel-Lipsker
-- Michael E Hahn
+- M.E. Hahn
 tags:
-- '"Gait"'
-- '"Motor learning"'
-- '"Principal component analysis"'
-- '"Split-belt"'
-- '"Variable practice"'
+- Gait
+- Motor learning
+- Principal component analysis
+- Split-belt
+- Variable practice
 categories: []
 date: '2018-01-01'
-lastmod: 2021-04-08T13:15:32-07:00
+lastmod: 2023-03-04T22:59:59-08:00
 featured: false
 draft: false
 
@@ -34,10 +34,10 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-04-08T20:15:32.171790Z'
+publishDate: '2023-03-05T06:59:59.243623Z'
 publication_types:
 - '2'
-abstract: 'Gait adaptation is a task that requires fine-tuned
+abstract: '© 2018 Elsevier B.V. Gait adaptation is a task that requires fine-tuned
   coordination of all degrees of freedom in the lower limbs by the central nervous
   system. However, when individuals change their gait it is unknown how this coordination
   is organized, and how it can be influenced by contextual interference during practice.

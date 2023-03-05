@@ -1,21 +1,21 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Contextual interference during adaptation to asymmetric split-belt treadmill
-  walking results in transfer of unique gait mechanics
+title: Contextual Interference during Adaptation to Asymmetric Split-Belt Treadmill
+  Walking Results in Transfer of Unique Gait Mechanics
 subtitle: ''
 summary: ''
 authors:
 - Jacob W Hinkel-Lipsker
-- Michael E Hahn
+- M.E. Hahn
 tags:
-- '"Biomechanics"'
-- '"Gait adaptation"'
-- '"Motor behavior"'
-- '"Variable practice"'
+- Biomechanics
+- Gait adaptation
+- Motor behavior
+- Variable practice
 categories: []
 date: '2017-01-01'
-lastmod: 2021-04-08T13:15:32-07:00
+lastmod: 2023-03-04T22:59:59-08:00
 featured: false
 draft: false
 
@@ -33,10 +33,10 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-04-08T20:15:31.977859Z'
+publishDate: '2023-03-05T06:59:58.950466Z'
 publication_types:
 - '2'
-abstract: 'When humans make errors
+abstract: '© 2017. Published by The Company of Biologists Ltd. When humans make errors
   in stepping during walking due to a perturbation, they may adapt their gait as a
   way to correct for discrepancies between predicted and actual sensory feedback.
   This study sought to determine if increased contextual interference during acquisition

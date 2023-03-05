@@ -1,22 +1,22 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: The effects of variable practice on locomotor adaptation to a novel asymmetric
-  gait
+title: The Effects of Variable Practice on Locomotor Adaptation to a Novel Asymmetric
+  Gait
 subtitle: ''
 summary: ''
 authors:
 - Jacob W Hinkel-Lipsker
-- Michael E Hahn
+- M.E. Hahn
 tags:
-- '"Balance"'
-- '"Gait"'
-- '"Motor learning"'
-- '"Split-belt"'
-- '"Variable practice"'
+- Balance
+- Gait
+- Motor learning
+- Split-belt
+- Variable practice
 categories: []
 date: '2017-01-01'
-lastmod: 2021-04-08T13:15:31-07:00
+lastmod: 2023-03-04T22:59:58-08:00
 featured: false
 draft: false
 
@@ -34,7 +34,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-04-08T20:15:30.956542Z'
+publishDate: '2023-03-05T06:59:58.645344Z'
 publication_types:
 - '2'
 abstract: '© 2017, Springer-Verlag GmbH Germany. Very little is known about the effects

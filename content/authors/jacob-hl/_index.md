@@ -8,7 +8,7 @@ authors:
  - jacob-hl
 
 # Role/position
-role: Assistant Professor
+role: Associate Professor
 
 # Organizations/Affiliations
 organizations:
