@@ -4,7 +4,7 @@
 hugo new  --kind post post/interested-in-trying-VR
 
 # add authors
-hugo new --kind authors authors/Zoe_Hakonsson
+hugo new --kind authors authors/thomas-ruswick
 
 # add publications
 academic import --bibtex content/authors/jacob-hl/hl-publications.bib
@@ -14,9 +14,6 @@ hugo new  --kind project project/of-psychometric-psfms
 
 # add talks
 hugo new  --kind event event/20220404-test
-
-# add event: Oral Presentation or Poster
-hugo new  --kind event event/test
 
 # add event: Oral Presentation or Poster
 hugo new  --kind event event/test
