@@ -1,6 +1,11 @@
 ---
+organizations:
+  - name: University of Southern California
+superuser: false
+authors:
+  - Isaiah J Lachica
 title: Isaiah J Lachica
-role: Ph.D. Candidate
+role: Ph.D. Candidate at University of Southern California
 avatar_filename: avatar.jpg
 social:
   - display:
@@ -8,11 +13,6 @@ social:
     link: https://www.researchgate.net/profile/Isaiah-Lachica
     icon_pack: ai
     icon: researchgate
-organizations:
-  - name: University of Southern California
-superuser: false
-authors:
-  - Isaiah J Lachica
 user_groups:
   - Alumni
 ---
