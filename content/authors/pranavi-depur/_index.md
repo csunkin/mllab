@@ -22,7 +22,7 @@ education:
       year: 2017
 superuser: false
 user_groups:
-  - Alumni
+  - DPT student at Mt St Mary's University
 highlight_name: false
 title: Pranavi Depur
 $  icon_pack: ai
