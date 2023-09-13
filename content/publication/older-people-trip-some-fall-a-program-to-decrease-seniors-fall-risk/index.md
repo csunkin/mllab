@@ -5,9 +5,9 @@ publication_types:
   - "2"
 authors:
   - Ryan Baylor
-  - Victoria A. Jaque
-  - Jacob W. Hinkel-Lipsker
-  - Sean P. Flanagan
+  - Victoria A Jaque
+  - Jacob W Hinkel-Lipsker
+  - Sean P Flanagan
 doi: 10.1519/SSC.0000000000000782
 publication: Strength and Conditioning Journal
 abstract: Falls resulting from trips are a leading cause of injury and can
