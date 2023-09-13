@@ -10,12 +10,7 @@ authors:
   - Sara R. Berzenski
   - Jacob W. Hinkel-Lipsker
   - Stefanie A. Drew
-author_notes:
-  - Department of Psychology
-  - California State University
-  - Northridge; Department of Kinesiology
-  - California State University
-  - Northridge
+author_notes: []
 doi: 10.1080/10447318.2022.2132358.
 publication: "*International Journal of Human-Computer Interaction* "
 abstract: >-
