@@ -9,7 +9,7 @@ authors:
   - Jacob W Hinkel-Lipsker
   - Sean P Flanagan
 doi: 10.1519/SSC.0000000000000782
-publication: Strength and Conditioning Journal
+publication: "*Strength and Conditioning Journal*"
 abstract: Falls resulting from trips are a leading cause of injury and can
   sometimes result in death, especially in the older population. Numerous
   researchers have studied the biomechanical mechanisms that differentiate
