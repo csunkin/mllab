@@ -32,6 +32,10 @@ draft: false
 featured: false
 authors:
   - josh-vincente
+  - gwendolyn-retzinger
+  - thomas-ruswick
+  - shawna-kasabov
+  - jacob-hl
 image:
   filename: capture.png
   focal_point: Smart
