@@ -11,6 +11,7 @@ authors:
   - Jacob W Hinkel-Lipsker
   - Craig M Goehler
   - Kimberly E Bigelow
+publication: "*Journal of Biomechanics*"
 abstract: "Undergraduate research is commonly performed in many STEM disciplines
   and has a wide array of benefits for students, laboratories, principal
   investigators, and institutions. While many fields have assessed best
