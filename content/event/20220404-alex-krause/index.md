@@ -14,7 +14,7 @@ abstract: During the COVID-19 pandemic, the CSUN community has transitioned to
   suggesting posture may contribute to discomfort.
 url_pdf: https://mfr.osf.io/render?url=https://osf.io/g5jxs/?direct%26mode=render%26action=download%26mode=render
 summary: null
-date_end: 2023-09-13T17:48:36.822Z
+date_end: 2022-04-04T17:48:36.822Z
 event_url: https://www.csun.edu/research-graduate-studies/csunposium
 authors:
   - alex-krause
