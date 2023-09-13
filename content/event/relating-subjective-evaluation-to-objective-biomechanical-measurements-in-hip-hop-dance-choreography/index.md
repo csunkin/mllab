@@ -33,7 +33,7 @@ featured: false
 authors:
   - josh-vincente
 image:
-  filename: featured
+  filename: capture.png
   focal_point: Smart
   preview_only: false
 ---
