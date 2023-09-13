@@ -13,6 +13,7 @@ authors:
   - Sean P Flanagan
   - Jacob W Hinkel-Lipsker
 doi: https://doi.org/10.1123/jmld.2022-0069
+publication: "*Journal of Motor Learning and Development*"
 abstract: Action observation, where a learner observes a model demonstrating a
   skill, has long been established in the literature as an effective means to
   acquire motor skills. Developments in virtual reality technology have made it
