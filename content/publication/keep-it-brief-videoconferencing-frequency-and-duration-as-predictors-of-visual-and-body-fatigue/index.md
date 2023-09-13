@@ -16,7 +16,7 @@ author_notes:
   - Northridge; Department of Kinesiology
   - California State University
   - Northridge
-doi: https://doi.org/10.1080/10447318.2022.2132358.
+doi: 10.1080/10447318.2022.2132358.
 publication: "Journal of Human-Computer Interaction "
 abstract: ""
 draft: false
