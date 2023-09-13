@@ -17,8 +17,26 @@ author_notes:
   - California State University
   - Northridge
 doi: 10.1080/10447318.2022.2132358.
-publication: "*Journal of Human-Computer Interaction* "
-abstract: ""
+publication: "*International Journal of Human-Computer Interaction* "
+abstract: >-
+  The recent COVID-19 pandemic has led to a drastic increase in the frequency of
+  videoconferencing
+
+  used for work, school, and socialization. To date, the user experience impact of this increased
+
+  screen time is unknown. We surveyed 489 participants (Mage¼24.19, Range ¼ 18–72) to determine
+
+  which factors best predict visual and body discomfort. Along with gender, screen time, and
+
+  level of subjective meeting fatigue, meeting duration significantly predicted visual discomfort. In
+
+  contrast, meeting frequency (along with the level of meeting engagement, subjective meeting
+
+  fatigue, and other covariates) significantly predicted bodily discomfort. These results highlight the
+
+  need for greater ergonomic evaluation of work-from-home setups, as well as point to a need for
+
+  shorter, fewer, and more engaging video meetings for the average worker from home.
 draft: false
 featured: false
 image:
