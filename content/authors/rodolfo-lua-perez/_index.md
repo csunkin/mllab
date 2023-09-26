@@ -13,7 +13,7 @@ education:
   courses:
     - course: B.S. in Kinesiology – Exercise Science
       institution: California State University, Northridge
-      year: 2019-present
+      year: ""
 user_groups:
   - Alumni
 highlight_name: false
