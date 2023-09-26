@@ -1,63 +1,28 @@
 ---
-# Display name
-title: "Jose Diaz"
-
-# Username (this should match the folder name and the name on publications)
-authors:
-- "jose-diaz"
-
-# Is this the primary user of the site?
+organizations: []
 superuser: false
-
-# Role/position (e.g., Professor of Artificial Intelligence)
+authors:
+  - jose-diaz
 role: Master's Candidate
-
-# Organizations/Affiliations
-organizations:
-- name: 
-  url: ""
-
-# Short bio (displayed in user profile at end of posts)
-bio: 
-
-# List each interest with a dash
+avatar_filename: diaz2022.png
+bio: null
 interests:
-- Biomechanics
-- Motor Behavior
-- Strength Training
-
-
+  - Biomechanics
+  - Motor Behavior
+  - Strength Training
+social: null
 education:
   courses:
-  - course: M.S. in Kinesiology
-    institution: Cal State Northridge
-    year: 2023-present
-  - course: B.S in Kinesiology - Exercise Science
-    institution: Cal State Northridge
-    year: 2019-2022
-
-
-# Social/Academic Networking
-# For available icons, see: https://wowchemy.com/docs/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
-social:
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
-
-# Highlight the author in author lists? (true/false)
-highlight_name: false
-
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
+    - course: M.S. in Kinesiology
+      institution: Cal State Northridge
+      year: 2023-present
+    - course: B.S in Kinesiology - Exercise Science
+      institution: Cal State Northridge
+      year: 2019-2022
 user_groups:
-- Graduate Students
+  - Graduate Students
+highlight_name: false
+title: Jose Diaz
+email: ""
 ---
-
-Jose is an undergraduate Kinesiology major attending California State University, Northridge. His passion for strength training and the sport of powerlifting naturally led him toward a fascination in human movement, especially as it relates to performance in strength sports. Jose’s growing interest in the field of biomechanics pushed him to intern in two biomechanics research laboratories and eventually gain admittance to the Master of Science in Kinesiology program at CSUN in the biomechanics subdiscipline. Although his journey in biomechanics research has just begun, he hopes to someday provide something valuable to the field as a whole.
+Jose is a graduate student of Kinesiology (Biomechanics) attending CSU, Northridge. His passions for biomechanics and technology led him to pursue research with the Human Biodyanics Group and the Move Learn Lab. There, he works on using computer simulations and virtual/augmented reality to discover how technology can further the current understanding of human movement. After earning his Master of Science degree, Jose aims to establish a career in medical devices research where he will have the opportunity to explore how technologies can be used to better support the medical industry.
