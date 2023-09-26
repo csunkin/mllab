@@ -1,59 +1,33 @@
 ---
-# Display name
-title: "Gwendolyn Retzinger"
-
-# Username (this should match the folder name and the name on publications)
-authors:
-- "gwendolyn-retzinger"
-
-# Is this the primary user of the site?
-superuser: false
-
-# Role/position (e.g., Professor of Artificial Intelligence)
-role: Master's Candidate
-
-# Organizations/Affiliations
 organizations:
-- name: 
-  url: ""
-
-# Short bio (displayed in user profile at end of posts)
-bio: 
-
-# List each interest with a dash
+  - name: Move-Learn Lab
+    url: ""
+superuser: false
+authors:
+  - gwendolyn-retzinger
+role: Master's Candidate
+avatar_filename: retzinger2022.png
+bio: null
 interests:
-- Motor Behavior
-- Biomechanics
-- Exercise Physiology
-
+  - Motor Behavior
+  - Biomechanics
+  - Exercise Physiology
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:gwendolyn.retzinger.803@my.csun.edu
 education:
   courses:
-  - course: M.S. in Kinesiology - Exercise Science
-    institution: Cal State Northridge
-    year: 2023-present
-  - course: B.S. in Kinesiology
-    institution: Cal State Northridge
-    year: 2019-2022
-
-# Social/Academic Networking
-# For available icons, see: https://wowchemy.com/docs/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
-social:
-- icon: envelope
-  icon_pack: fas
-  link: 'mailto:gwendolyn.retzinger.803@my.csun.edu'  # For a direct email link, use "mailto:test@example.org".
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
-
-# Highlight the author in author lists? (true/false)
-highlight_name: false
-
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
+    - course: M.S. in Kinesiology - Exercise Science
+      institution: Cal State Northridge
+      year: 2023-present
+    - course: B.S. in Kinesiology
+      institution: Cal State Northridge
+      year: 2019-2022
 user_groups:
-- Graduate Students
+  - Graduate Students
+highlight_name: false
+title: Gwendolyn Retzinger
+email: ""
 ---
-
-Gwen is in her last semester as a Kinesiology undergraduate student at California State University, Northridge. She is a Peer Learning Facilitator and finds great joy in helping other students succeed. This is her 3rd semester in the lab and is proud to be the current lab manager. Gwen will be entering the CSUN Master’s program in Kinesiology in Spring 2023, and plans to continue being involved in the lab. She is ultimately hoping to pursue a career enriched with biomechanics research. Outside of the lab, she is a circus artist and particularly enjoys juggling, hooping, and slacklining.
+Gwen is a kinesiology graduate student at California State University, Northridge. She is a TA and the current lab manager. She is ultimately hoping to pursue a career enriched with biomechanics research, likely as a professor and advisor. Outside of the lab, she is a circus artist and particularly enjoys juggling, hooping, and slacklining.
