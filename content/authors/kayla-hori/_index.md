@@ -13,7 +13,7 @@ education:
   courses:
     - course: B.S. Kinesiology
       institution: California State University, Northridge
-      year: 2020
+      year: 2021
 superuser: false
 user_groups:
   - Graduate Students
