@@ -7,7 +7,12 @@ interests:
   - Biomechanics
   - Balance Control
   - Motor Learning
-social: []
+social:
+  - display:
+      header: false
+    link: http://linkedin.com/in/aliquemalakian
+    icon_pack: fab
+    icon: linkedin
 education:
   courses:
     - course: M.S. Kinesiology (Biomechanics)
