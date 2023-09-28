@@ -1,7 +1,7 @@
 ---
 title: Blake Bingham
 role: Undergraduate student
-avatar_filename: bingham2023.png
+avatar_filename: static/media/bingham2023.png
 bio: Undergraduate student
 interests:
   - Injury Prevention and Rehabilitation
