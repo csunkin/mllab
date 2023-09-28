@@ -1,7 +1,7 @@
 ---
 title: Alique Malakian
 role: Master's candidate
-avatar_filename: malakian2022.png
+avatar_filename: blob:https://csun-mllab.netlify.app/5c22dcb0-50d4-473d-959b-96c3c0c24e99
 bio: Master's candidate
 interests:
   - Biomechanics
