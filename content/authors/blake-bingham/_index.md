@@ -1,7 +1,7 @@
 ---
 title: Blake Bingham
 role: Undergraduate student
-avatar_filename: blob:https://csun-mllab.netlify.app/5967a866-dd83-4ce8-969d-fed9053918c1
+avatar_filename: bingham2023.png
 bio: Undergraduate student
 interests:
   - Injury Prevention and Rehabilitation
