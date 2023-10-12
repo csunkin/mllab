@@ -17,6 +17,10 @@ advanced:
   css_class:
 ---
 
-The Move-Learn Lab is part of the Kinesiology Department at [California State University - Northridge.](https://www.csun.edu)
+The Move-Learn Lab is part of the Kinesiology Department at [California State University - Northridge](https://www.csun.edu)
 
-<a href="https://twitter.com/MoveLearnLab?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @MoveLearnLab</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a href="https://twitter.com/MoveLearnLab?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @MoveLearnLab</a>
+
+```{=html}
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
