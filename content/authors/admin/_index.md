@@ -12,7 +12,7 @@ role: Associate Professor
 
 # Organizations/Affiliations
 organizations:
-- name: California State University
+- name: California State University - Northridge
   url: "https://www.metalab.csun.edu/faculty/ovande.furtado"
 
 # Short bio (displayed in user profile at end of posts)
@@ -70,9 +70,9 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Faculty Members
+- Lab Coordinators
 ---
 
-Dr. Furtado received a B.A. in Physical Education from the Federal University of Parana, Curitiba, PR - Brazil. He earned his M.S. and Ph.D. degrees in Motor Behavior from the University of Pittsburgh, PA. 
+Dr. Furtado received a B.A. in Physical Education from the Federal University of Parana, Curitiba, PR - Brazil. He earned his M.S. and Ph.D. degrees in Motor Behavior from the University of Pittsburgh, PA.
 
 Dr. Furtado's line of research focuses on two main areas: (1) validation of observational models in psychomotor assessment instruments and (2) the relationship between motor skill competence, perceived motor competence, physical activity levels, and body composition.

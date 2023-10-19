@@ -25,9 +25,10 @@ education:
       year: 2019
 superuser: false
 user_groups:
-  - Faculty Members
+  - Collaborators
 highlight_name: false
 title: Joshua Vicente
 email: ""
 ---
-Joshua Alexander Vicente, M.S. has been a part of the CSUN Kinesiology department for the last 5 years. Since transferring from Moorpark College in Fall 2018, he’s served as a Peer Learning Facilitator (PLF) for Exercise Physiology (KIN 346 & 446), was a TA for the Kinesiology Department as CSUN, and now serves as part-time faculty at CSUN & Cal Lutheran University. He aspires to get into Medical School and obtain his Medical Doctorate degree to be able to practice medicine, teach students, and inspire. He likes being able to teach students to utilize the most out of their education and provide opportunities to enrich student-faculty relations. Josh tries to keep busy by taking dance classes, exercising, or trying new things when he’s not working or studying. Otherwise, he is an avid gaming enthusiast as well.
+
+Joshua Alexander Vicente, M.S. has been a part of the CSUN Kinesiology department for the last 5 years. Since transferring from Moorpark College in Fall 2018, he's served as a Peer Learning Facilitator (PLF) for Exercise Physiology (KIN 346 & 446), was a TA for the Kinesiology Department as CSUN, and now serves as part-time faculty at CSUN & Cal Lutheran University. He aspires to get into Medical School and obtain his Medical Doctorate degree to be able to practice medicine, teach students, and inspire. He likes being able to teach students to utilize the most out of their education and provide opportunities to enrich student-faculty relations. Josh tries to keep busy by taking dance classes, exercising, or trying new things when he's not working or studying. Otherwise, he is an avid gaming enthusiast as well.
