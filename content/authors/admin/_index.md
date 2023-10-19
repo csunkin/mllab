@@ -71,6 +71,9 @@ highlight_name: true
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Lab Coordinators
+highlight_name: true
+title: Ovande Furtado Jr
+email: ""
 ---
 
 Dr. Furtado received a B.A. in Physical Education from the Federal University of Parana, Curitiba, PR - Brazil. He earned his M.S. and Ph.D. degrees in Motor Behavior from the University of Pittsburgh, PA.
