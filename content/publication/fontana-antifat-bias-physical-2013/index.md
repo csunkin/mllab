@@ -6,7 +6,7 @@ subtitle: ''
 summary: ''
 authors:
 - Fabio E Fontana
-- Ovande Furtado Jr
+- admin
 - Ripley Marston
 - Oldemar Mazzardo
 - Jere D Gallagher

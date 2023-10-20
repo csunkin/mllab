@@ -31,3 +31,6 @@ hugo new  --kind event event/test
 # to update theme - use the terminal
 hugo mod get -u
 hugo mod get -u ./... # latest developments
+
+# only showing related under people
+## the solution is to ensure all items have `authors` = <folder-name>
