@@ -27,8 +27,6 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Dr. Angulo-Barroso
-    tag: Angulo-Barroso
   - name: Dr. Furtado
     tag: Furtado
   - name: Dr. Hinkel-Lipsker
@@ -48,4 +46,3 @@ design:
 # For Showcase view, flip alternate rows?
   flip_alt_rows: true
 ---
-
