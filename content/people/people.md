@@ -9,6 +9,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 
 
+profile: true
+
 title: People
 subtitle: Meet the Lab Members
 

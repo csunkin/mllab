@@ -5,8 +5,9 @@ organizations:
 superuser: false
 authors:
   - jacob-hl
+
 role: Associate Professor
-bio: null
+bio:
 interests:
   - Biomechanics
   - Exercise Science

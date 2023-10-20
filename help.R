@@ -15,7 +15,7 @@ hugo new  --kind project project/of-psychometric-psfms
 # add talks
 hugo new  --kind event event/20220404-test
 
-# add event: Oral Presentation or Poster
+# add event: Oral Presentation or Poster 
 hugo new  --kind event event/test
 
 # miscellaneous
