@@ -9,8 +9,8 @@ authors:
 - Isabelle Brusamolin Boell
 - Beatriz Oliveira Pereira
 - Adilson Hernandes Spinelli
-- ', Luiz Gustavo Franz'
-- Ovande Furtado Jr
+- Luiz Gustavo Franz
+- admin
 tags: []
 categories: []
 date: '2019-01-01'

@@ -6,7 +6,7 @@ subtitle: ''
 summary: ''
 authors:
 - Fabio Fontana
-- Ovande Furtado Jr
+- admin
 - Oldemar Mazzardo
 - Deockki Hong
 - Wagner de Campos

@@ -6,7 +6,7 @@ title: The Reliability of Classification Decisions for the Furtado-Gallagher Com
 subtitle: ''
 summary: ''
 authors:
-- Ovande Furtado Jr
+- admin
 - Jere D Gallagher
 tags:
 - Gross motor skills
