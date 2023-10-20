@@ -8,7 +8,7 @@ summary: ''
 authors:
 - Oldemar Mazzardo
 - Fábio Eduardo Fontana
-- Ovande Furtado Jr
+- admin
 - Jere D. Gallagher
 tags: []
 categories: []
@@ -47,4 +47,7 @@ publication: '*Pensar a Prática*'
 url_pdf: https://www.revistas.ufg.br/fef/article/view/42360/pdf
 doi: 10.5216/rpp.v21i1.42360
 ---
-<span class="__dimensions_badge_embed__" data-doi="10.5216/rpp.v21i1.42360"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+```{=html}
+<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+```
