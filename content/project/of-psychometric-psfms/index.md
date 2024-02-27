@@ -39,6 +39,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-This project aims to collect validity and reliability evidence for the Pictorial Scale of Fundamental Movement Skill – PSFMS.
 
-For more information on this project [click here](https://figshare.com/projects/Development_and_psychometric_evaluation_of_the_PSFMS/136496)
+This project aims to collect validity and reliability evidence for the Pictorial Scale of Fundamental Movement Skill – PSFMS.
