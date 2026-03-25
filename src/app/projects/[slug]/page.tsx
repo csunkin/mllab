@@ -57,7 +57,7 @@ export default async function ProjectDetailPage({ params }: { params: { slug: st
         <div className="bg-gray-50 border border-gray-200 rounded-lg p-5 mb-8 space-y-3">
           {project.summary && (
             <div className="grid grid-cols-[120px_1fr] gap-2">
-              <span className="font-semibold text-gray-700">Summary:</span>
+              <span className="font-semibold text-gray-700">Objective:</span>
               <span className="text-gray-900 leading-relaxed italic">{project.summary}</span>
             </div>
           )}

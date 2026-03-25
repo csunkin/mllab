@@ -21,10 +21,16 @@ image:
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 links:
- - name: Follow
+ - name: Follow on X
    url: https://twitter.com/ofurtado
    icon_pack: fab
    icon: twitter
+ - name: FG-COMPASS website
+   url: https://fgcompass.com
+   icon_pack: ""
+   icon: ""
+   
+
 
 url_code: ""
 url_pdf: ""
