@@ -63,11 +63,6 @@ export default async function ProjectDetailPage({ params }: { params: { slug: st
         {/* Project Info Card */}
         <div className="bg-gray-50 border border-gray-200 rounded-lg p-5 mb-8 space-y-3">
           <div className="grid grid-cols-[120px_1fr] gap-2">
-            <span className="font-semibold text-gray-700">Project name:</span>
-            <span className="text-gray-900">{project.title}</span>
-          </div>
-          
-          <div className="grid grid-cols-[120px_1fr] gap-2">
             <span className="font-semibold text-gray-700">Responsible:</span>
             <span className="text-gray-900">
               {project.authors && project.authors.length > 0
