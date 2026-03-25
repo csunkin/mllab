@@ -37,7 +37,7 @@ export default function DonatePage() {
 
         <h2 className="text-2xl font-semibold text-gray-900 mt-12 mb-4">Need More Information?</h2>
         <p className="mb-6 leading-relaxed">
-          If you have specific questions about directing your gift toward the Move-Learn Lab, establishing a targeted scholarship, or if you need more details about our ongoing research initiatives, please contact me directly:
+          If you have specific questions about directing your gift toward the Move-Learn Lab, establishing a targeted scholarship, or if you need more details about our ongoing research initiatives, please contact the lab director:
         </p>
 
         <div className="mt-6 p-6 bg-gray-50 rounded-xl border border-gray-200">
