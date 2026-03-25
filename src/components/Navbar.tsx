@@ -11,6 +11,7 @@ const NAV_LINKS = [
   { href: '/projects/', label: 'Projects' },
   { href: '/events/', label: 'Events' },
   { href: '/contact/', label: 'Contact' },
+  { href: '/donate/', label: 'Donate' },
 ]
 
 export default function Navbar() {
