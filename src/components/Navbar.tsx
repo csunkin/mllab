@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 
@@ -21,8 +22,16 @@ export default function Navbar() {
     <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
       <nav className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
         {/* Logo */}
-        <Link href="/" className="text-lg font-bold text-slate-800 hover:text-blue-700 transition-colors">
-          Move-Learn Lab
+        <Link href="/" className="flex items-center hover:opacity-90 transition-opacity">
+          <Image
+            src="/mllab-logo.png"
+            alt="Move-Learn Lab"
+            width={160}
+            height={48}
+            className="h-10 w-auto"
+            unoptimized
+            priority
+          />
         </Link>
 
         {/* Desktop links */}

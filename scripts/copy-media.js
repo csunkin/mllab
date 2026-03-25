@@ -63,4 +63,12 @@ const publicMedia = path.join(ROOT, 'public', 'media')
 copyDirRecursive(staticMedia, publicMedia)
 console.log('Copied static/media → public/media')
 
+// 3. Copy logo
+const logoSrc = path.join(ROOT, 'mllab-logo.png')
+const logoDest = path.join(ROOT, 'public', 'mllab-logo.png')
+if (fs.existsSync(logoSrc)) {
+  copyFile(logoSrc, logoDest)
+  console.log('Copied mllab-logo.png → public/')
+}
+
 console.log('✓ copy-media.js done')
