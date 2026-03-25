@@ -1,6 +1,4 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
 title: "Development and psychometric evaluation of the FG-COMPASS"
 summary: "Collecting validity and reliability evidence for the FG-COMPASS, the Children Observational Movement Pattern Assessment System."
 authors: [admin]
@@ -40,5 +38,3 @@ url_video: ""
 slides: ""
 ---
 The aim of this project is to collect validity and reliability evidence for the FG-COMPASS - http://www.fgcompass.com
-
-You may also view this project on [Research Gate](https://www.researchgate.net/project/Development-and-psychometric-evaluation-of-the-FG-COMPASS).

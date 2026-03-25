@@ -55,10 +55,52 @@ export default async function ProjectDetailPage({ params }: { params: { slug: st
 
         {/* Summary */}
         {project.summary && (
-          <p className="text-gray-600 text-base leading-relaxed mb-8 italic border-l-4 border-blue-200 pl-4">
+          <p className="text-gray-600 text-base leading-relaxed mb-6 italic border-l-4 border-blue-200 pl-4">
             {project.summary}
           </p>
         )}
+
+        {/* Project Info Card */}
+        <div className="bg-gray-50 border border-gray-200 rounded-lg p-5 mb-8 space-y-3">
+          <div className="grid grid-cols-[120px_1fr] gap-2">
+            <span className="font-semibold text-gray-700">Project name:</span>
+            <span className="text-gray-900">{project.title}</span>
+          </div>
+          
+          <div className="grid grid-cols-[120px_1fr] gap-2">
+            <span className="font-semibold text-gray-700">Responsible:</span>
+            <span className="text-gray-900">
+              {project.authors && project.authors.length > 0
+                ? resolveAuthors(project.authors, nameMap).join(', ')
+                : 'Move-Learn Lab'}
+            </span>
+          </div>
+          
+          <div className="grid grid-cols-[120px_1fr] gap-2">
+            <span className="font-semibold text-gray-700">Status:</span>
+            <span className="text-gray-900">
+              {project.status ? project.status : 'Ongoing'}
+            </span>
+          </div>
+          
+          <div className="grid grid-cols-[120px_1fr] gap-2">
+            <span className="font-semibold text-gray-700">Related links:</span>
+            <span className="flex flex-wrap gap-3">
+              {project.external_link && (
+                <a href={project.external_link} target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:underline">Visit Project →</a>
+              )}
+              {project.url_pdf && (
+                <a href={project.url_pdf} target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:underline">PDF →</a>
+              )}
+              {project.url_code && (
+                <a href={project.url_code} target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:underline">Code →</a>
+              )}
+              {!project.external_link && !project.url_pdf && !project.url_code && (
+                <span className="text-gray-400 italic">None available</span>
+              )}
+            </span>
+          </div>
+        </div>
 
         {/* Body content */}
         {bodyHtml && (
@@ -103,29 +145,6 @@ export default async function ProjectDetailPage({ params }: { params: { slug: st
           </section>
         )}
 
-        {/* Links */}
-        <div className="flex flex-wrap gap-4 mt-10 pt-6 border-t border-gray-100">
-          {project.external_link && (
-            <a
-              href={project.external_link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm font-medium text-blue-700 hover:underline"
-            >
-              Visit Project →
-            </a>
-          )}
-          {project.url_pdf && (
-            <a href={project.url_pdf} target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-blue-700 hover:underline">
-              PDF →
-            </a>
-          )}
-          {project.url_code && (
-            <a href={project.url_code} target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-blue-700 hover:underline">
-              Code →
-            </a>
-          )}
-        </div>
       </div>
     </main>
   )

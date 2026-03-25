@@ -79,6 +79,7 @@ export interface Project {
   authors?: string[]
   tags?: string[]
   date?: string
+  status?: string
   external_link?: string
   url_code?: string
   url_pdf?: string
@@ -295,6 +296,7 @@ export function getAllProjects(): Project[] {
     authors: data.authors as string[] | undefined,
     tags: data.tags as string[] | undefined,
     date: data.date as string | undefined,
+    status: data.status as string | undefined,
     external_link: data.external_link as string | undefined,
     url_code: data.url_code as string | undefined,
     url_pdf: data.url_pdf as string | undefined,
