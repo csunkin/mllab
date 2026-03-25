@@ -1,8 +1,13 @@
 # IDEs
 .idea/
 
-# Hugo
-/resources/
+# Next.js
+.next/
+out/
 public/
-assets/jsconfig.json
+
+# Dependencies
+node_modules
+
+# R
 .Rproj.user

@@ -29,8 +29,6 @@ content:
     tag: '*'
   - name: Dr. Furtado
     tag: Furtado
-  - name: Dr. Hinkel-Lipsker
-    tag: Hinkel-Lipsker
   
 design:
 # Choose how many columns the section has. Valid values: '1' or '2'.
