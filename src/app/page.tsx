@@ -24,7 +24,7 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto px-6 flex flex-col items-center text-center gap-8">
           <div className="flex flex-col items-center gap-3">
             <Image
-              src="/mllab-logo.png"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/mllab-logo.png`}
               alt="Move-Learn Lab"
               width={700}
               height={233}
@@ -157,7 +157,7 @@ export default function HomePage() {
               <div key={author.slug} className="flex flex-col items-center text-center w-36">
                 {author.avatar ? (
                   <Image
-                    src={author.avatar}
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${author.avatar}`}
                     alt={author.title}
                     width={144}
                     height={144}

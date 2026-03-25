@@ -105,7 +105,7 @@ export default async function PersonPage({ params }: { params: { slug: string } 
         <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 mb-10">
           {author.avatar ? (
             <Image
-              src={author.avatar}
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${author.avatar}`}
               alt={author.title}
               width={144}
               height={144}

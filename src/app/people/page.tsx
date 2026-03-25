@@ -92,7 +92,7 @@ function PersonCard({ author }: { author: ReturnType<typeof getAllAuthors>[numbe
       {/* Avatar */}
       {author.avatar ? (
         <Image
-          src={author.avatar}
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${author.avatar}`}
           alt={author.title}
           width={144}
           height={144}
