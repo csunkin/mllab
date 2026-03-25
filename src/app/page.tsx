@@ -37,7 +37,7 @@ export default function HomePage() {
             </span>
           </div>
           <p className="text-gray-500 text-lg leading-relaxed max-w-xl">
-            We study motor development, motor learning, motor control, physical activity, and physical education across the lifespan.
+            At the Move Learn Lab, we study how motor behavior (motor development, motor learning, and motor control) shapes and is shaped by physical activity and physical education across the lifespan.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link
