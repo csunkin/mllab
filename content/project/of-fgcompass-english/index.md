@@ -1,7 +1,8 @@
 ---
 title: "Development and psychometric evaluation of the FG-COMPASS"
-summary: "Collecting validity and reliability evidence for the FG-COMPASS, the Children Observational Movement Pattern Assessment System."
+summary: "To collect validity and reliability evidence for the FG-COMPASS, the Children Observational Movement Pattern Assessment System."
 authors: [admin]
+collaborators: ["Dr. Jere D. Gallagher", "oldemar-mazzardo", "fabio-fontana", "Wagner de Campos", "Priscila Cacola", "Lino Perez", "mackinsey-woolever", "Comfort Mokgothu", "Hasan F. Mavi", "Mariah Bolin", "Takato Sacurai", "Lawrence Ho", "Thomas Cunningham", "Alan Chapla"]
 tags: [Furtado, FG-COMPASS]
 status: "Ongoing"
 categories: []
@@ -29,7 +30,12 @@ links:
    url: https://fgcompass.com
    icon_pack: ""
    icon: ""
+ - name: FG-COMPASS manual
+   url: https://drfurtado.github.io/compass-manual/
+   icon_pack: ""
+   icon: ""
    
+
 
 
 url_code: ""
@@ -44,3 +50,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+# Acknowledgments
+
