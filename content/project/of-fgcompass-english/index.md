@@ -2,7 +2,7 @@
 title: "Development and psychometric evaluation of the FG-COMPASS"
 summary: "To collect validity and reliability evidence for the FG-COMPASS, the Children Observational Movement Pattern Assessment System."
 authors: [admin]
-collaborators: ["Dr. Jere D. Gallagher", "oldemar-mazzardo", "fabio-fontana", "Wagner de Campos", "Priscila Cacola", "Lino Perez", "mackinsey-woolever", "Comfort Mokgothu", "Hasan F. Mavi", "Mariah Bolin", "Takato Sacurai", "Lawrence Ho", "Thomas Cunningham", "Alan Chapla"]
+collaborators: ["Dr. Jere D. Gallagher", "oldemar-mazzardo", "fabio-fontana", "Wagner de Campos", "Priscila Cacola", "lino-perez", "mackinsey-woolever", "Comfort Mokgothu", "Hasan F. Mavi", "Mariah Bolin", "Takato Sacurai", "Lawrence Ho", "Thomas Cunningham", "Alan Chapla"]
 tags: [Furtado, FG-COMPASS]
 status: "Ongoing"
 categories: []
