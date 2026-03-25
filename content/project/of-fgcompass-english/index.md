@@ -2,12 +2,13 @@
 title: "Development and psychometric evaluation of the FG-COMPASS"
 summary: "Collecting validity and reliability evidence for the FG-COMPASS, the Children Observational Movement Pattern Assessment System."
 authors: [admin]
-tags: [Furtado]
+tags: [Furtado, FG-COMPASS]
+status: "Ongoing"
 categories: []
 date: 2021-04-23T21:11:22-07:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://www.fgcompass.com"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -37,4 +38,3 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-The aim of this project is to collect validity and reliability evidence for the FG-COMPASS - http://www.fgcompass.com

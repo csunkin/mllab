@@ -95,7 +95,18 @@ export default async function ProjectDetailPage({ params }: { params: { slug: st
               {project.url_code && (
                 <a href={project.url_code} target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:underline">Code →</a>
               )}
-              {!project.external_link && !project.url_pdf && !project.url_code && (
+              {project.url_slides && (
+                <a href={project.url_slides} target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:underline">Slides →</a>
+              )}
+              {project.url_video && (
+                <a href={project.url_video} target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:underline">Video →</a>
+              )}
+              {project.links?.map((link, idx) => (
+                <a key={idx} href={link.url} target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:underline">
+                  {link.name} →
+                </a>
+              ))}
+              {!project.external_link && !project.url_pdf && !project.url_code && !project.url_slides && !project.url_video && (!project.links || project.links.length === 0) && (
                 <span className="text-gray-400 italic">None available</span>
               )}
             </span>

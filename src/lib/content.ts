@@ -85,6 +85,7 @@ export interface Project {
   url_pdf?: string
   url_slides?: string
   url_video?: string
+  links?: { name: string, url: string, icon?: string, icon_pack?: string }[]
   image?: { filename?: string; caption?: string }
   body?: string
 }
@@ -302,6 +303,7 @@ export function getAllProjects(): Project[] {
     url_pdf: data.url_pdf as string | undefined,
     url_slides: data.url_slides as string | undefined,
     url_video: data.url_video as string | undefined,
+    links: data.links as { name: string, url: string, icon?: string, icon_pack?: string }[] | undefined,
     image: data.image as { filename?: string; caption?: string } | undefined,
     body: content,
   }))
