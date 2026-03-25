@@ -70,6 +70,15 @@ export default async function ProjectDetailPage({ params }: { params: { slug: st
                 : 'Move-Learn Lab'}
             </span>
           </div>
+
+          {project.collaborators && project.collaborators.length > 0 && (
+            <div className="grid grid-cols-[120px_1fr] gap-2">
+              <span className="font-semibold text-gray-700">Collaborators:</span>
+              <span className="text-gray-900">
+                {resolveAuthors(project.collaborators, nameMap).join(', ')}
+              </span>
+            </div>
+          )}
           
           <div className="grid grid-cols-[120px_1fr] gap-2">
             <span className="font-semibold text-gray-700">Status:</span>

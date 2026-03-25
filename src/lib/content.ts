@@ -77,6 +77,7 @@ export interface Project {
   summary?: string
   abstract?: string
   authors?: string[]
+  collaborators?: string[]
   tags?: string[]
   date?: string
   status?: string
@@ -295,6 +296,7 @@ export function getAllProjects(): Project[] {
     summary: data.summary as string | undefined,
     abstract: data.abstract as string | undefined,
     authors: data.authors as string[] | undefined,
+    collaborators: data.collaborators as string[] | undefined,
     tags: data.tags as string[] | undefined,
     date: data.date as string | undefined,
     status: data.status as string | undefined,
