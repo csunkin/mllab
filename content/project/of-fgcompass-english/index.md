@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Development and psychometric evaluation of the FG-COMPASS"
-summary: ""
+summary: "Collecting validity and reliability evidence for the FG-COMPASS, the Children Observational Movement Pattern Assessment System."
 authors: [admin]
 tags: [Furtado]
 categories: []

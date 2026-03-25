@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import {
   getAllProjects,
   getAllAuthors,
@@ -53,14 +54,20 @@ export default function ProjectsPage() {
               )}
 
               <div className="flex flex-wrap gap-3 mt-auto pt-3 border-t border-gray-100">
+                <Link
+                  href={`/projects/${project.slug}/`}
+                  className="text-xs font-medium text-blue-700 hover:underline"
+                >
+                  More Info →
+                </Link>
                 {project.external_link && (
                   <a
                     href={project.external_link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-xs font-medium text-blue-700 hover:underline"
+                    className="text-xs font-medium text-gray-500 hover:underline"
                   >
-                    Visit Project →
+                    Visit Project ↗
                   </a>
                 )}
                 {project.url_pdf && (
@@ -68,9 +75,9 @@ export default function ProjectsPage() {
                     href={project.url_pdf}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-xs font-medium text-blue-700 hover:underline"
+                    className="text-xs font-medium text-gray-500 hover:underline"
                   >
-                    PDF →
+                    PDF ↗
                   </a>
                 )}
                 {project.url_code && (
@@ -78,9 +85,9 @@ export default function ProjectsPage() {
                     href={project.url_code}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-xs font-medium text-blue-700 hover:underline"
+                    className="text-xs font-medium text-gray-500 hover:underline"
                   >
-                    Code →
+                    Code ↗
                   </a>
                 )}
                 {project.url_slides && (
@@ -88,9 +95,9 @@ export default function ProjectsPage() {
                     href={project.url_slides}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-xs font-medium text-blue-700 hover:underline"
+                    className="text-xs font-medium text-gray-500 hover:underline"
                   >
-                    Slides →
+                    Slides ↗
                   </a>
                 )}
               </div>

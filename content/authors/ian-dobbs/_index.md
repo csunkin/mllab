@@ -2,29 +2,24 @@
 # Display name
 title: "Ian Dobbs"
 
-# Username (this should match the folder name and the name on publications)
 authors:
 - "ian-dobbs"
 
-# Is this the primary user of the site?
 superuser: false
 
-# Role/position (e.g., Professor of Artificial Intelligence)
-role: Adjunct Faculty Instructor
+role: Access Data Analyst II
 
-# Organizations/Affiliations
 organizations:
-- name: California State University, Northridge
-  url: "https://www.csun.edu/"
+- name: Kaiser Permanente
+  url: "https://www.kaiserpermanente.org/"
 
-# Short bio (displayed in user profile at end of posts)
-bio: 
+bio:
 
-# List each interest with a dash
 interests:
 - Exercise Science
 - Coaching
 - Strength And Conditioning Coach
+- Data Analytics
 
 education:
   courses:
@@ -43,11 +38,10 @@ social:
   icon_pack: fab
   link: https://www.linkedin.com/in/ian-dobbs-80aa7ba6/
 
-# Highlight the author in author lists? (true/false)
 highlight_name: false
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Alumni
 ---
+
+Ian Dobbs is a former Adjunct Faculty Instructor in the Kinesiology department at California State University, Northridge. Since May 2025, he has been working as an **Access Data Analyst II at Kaiser Permanente** in Woodland Hills, California, applying his kinesiology background in a healthcare analytics role.

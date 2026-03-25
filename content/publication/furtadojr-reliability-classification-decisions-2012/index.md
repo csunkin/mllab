@@ -30,7 +30,8 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects:
+- of-fgcompass-english
 publishDate: '2022-04-10T19:59:30.864818Z'
 publication_types:
 - '2'
@@ -46,4 +47,5 @@ abstract: Mastery of fundamental movement skills (FMS) is an important factor in
   movement skills.
 publication: '*Research Quarterly for Exercise and Sport*'
 doi: 10.1080/02701367.2012.10599872
+url_pdf: "https://www.tandfonline.com/doi/pdf/10.1080/02701367.2012.10599872"
 ---

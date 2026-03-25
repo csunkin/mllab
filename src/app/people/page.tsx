@@ -7,12 +7,15 @@ export const metadata: Metadata = { title: 'People' }
 
 // Groups rendered in this order; In Memoriam is always last
 const GROUP_ORDER = [
-  'Lab Coordinators',
+  'Lab Director',
+  'Associate Directors',
   'Principal Investigators',
   'Faculty',
   'Researchers',
+  'Research Collaborators',
   'Graduate Students',
   'Undergraduate Students',
+  'Research Assistants',
   'Visitors',
   'Alumni',
   'Administration',
@@ -91,13 +94,13 @@ function PersonCard({ author }: { author: ReturnType<typeof getAllAuthors>[numbe
         <Image
           src={author.avatar}
           alt={author.title}
-          width={80}
-          height={80}
-          className="rounded-full object-cover w-20 h-20 mb-4"
+          width={144}
+          height={144}
+          className="rounded-full object-cover w-36 h-36 mb-4"
           unoptimized
         />
       ) : (
-        <div className="w-20 h-20 rounded-full bg-slate-200 flex items-center justify-center text-slate-500 text-2xl font-bold mb-4">
+        <div className="w-36 h-36 rounded-full bg-slate-200 flex items-center justify-center text-slate-500 text-4xl font-bold mb-4">
           {author.title.charAt(0)}
         </div>
       )}

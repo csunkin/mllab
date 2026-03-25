@@ -159,13 +159,13 @@ export default function HomePage() {
                   <Image
                     src={author.avatar}
                     alt={author.title}
-                    width={80}
-                    height={80}
-                    className="rounded-full mb-3 object-cover w-20 h-20"
+                    width={144}
+                    height={144}
+                    className="rounded-full mb-3 object-cover w-36 h-36"
                     unoptimized
                   />
                 ) : (
-                  <div className="w-20 h-20 rounded-full bg-slate-200 mb-3 flex items-center justify-center text-slate-500 text-2xl font-bold">
+                  <div className="w-36 h-36 rounded-full bg-slate-200 mb-3 flex items-center justify-center text-slate-500 text-4xl font-bold">
                     {author.title.charAt(0)}
                   </div>
                 )}

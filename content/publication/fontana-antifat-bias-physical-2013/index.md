@@ -5,10 +5,10 @@ title: Anti-Fat Bias among Physical Education Teachers and Majors
 subtitle: ''
 summary: ''
 authors:
-- Fabio E Fontana
+- "fabio-fontana"
 - admin
 - Ripley Marston
-- Oldemar Mazzardo
+- "oldemar-mazzardo"
 - Jere D Gallagher
 tags: []
 categories: []

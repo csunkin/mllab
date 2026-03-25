@@ -7,7 +7,7 @@ summary: ''
 authors:
 - Thomas C. Beals
 - admin
-- Fabio E. Fontana
+- "fabio-fontana"
 tags: []
 categories: []
 date: '2017-01-01'

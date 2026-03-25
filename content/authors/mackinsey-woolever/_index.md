@@ -15,7 +15,7 @@ role: Fitness Business Owner
 
 # Organizations/Affiliations
 organizations:
-- name: 
+- name: Evolve Youth Fitness
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -55,4 +55,4 @@ highlight_name: false
 user_groups:
 - Alumni
 ---
-Mackinsey is currently a business owner at Evolve Youth Fitness.
+Mackinsey Woolever is a former graduate student of the Move-Learn Lab at California State University, Northridge, where she earned her M.S. in Kinesiology (Motor Development). Since October 2017, she has been the **Business Owner of Evolve Youth Fitness** in Temecula, California. Her prior experience includes marketing and fitness instruction roles, reflecting her kinesiology expertise and passion for youth physical development.

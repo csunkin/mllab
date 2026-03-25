@@ -6,8 +6,8 @@ title: The Relationship of Movement Skills with Habitual and Organized Physical 
 subtitle: ''
 summary: ''
 authors:
-- Oldemar Mazzardo
-- Fábio Eduardo Fontana
+- "oldemar-mazzardo"
+- "fabio-fontana"
 - admin
 - Jere D. Gallagher
 tags: []
@@ -30,7 +30,8 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects:
+- of-pa-and-motor-skills
 publishDate: '2022-04-10T19:59:31.491276Z'
 publication_types:
 - '2'

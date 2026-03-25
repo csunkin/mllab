@@ -43,6 +43,7 @@ export interface Author {
   user_groups?: string[]
   bio?: string
   superuser?: boolean
+  projects?: string[]
 }
 
 export interface Publication {
@@ -67,6 +68,7 @@ export interface Publication {
   url_slides?: string
   url_source?: string
   url_video?: string
+  projects?: string[]
 }
 
 export interface Project {
@@ -94,6 +96,7 @@ export interface Event {
   location?: string
   summary?: string
   abstract?: string
+  award?: string
   date?: string
   year?: number
   authors?: string[]
@@ -170,6 +173,7 @@ export function getAllAuthors(): Author[] {
       user_groups: data.user_groups as string[] | undefined,
       bio: data.bio as string | undefined,
       superuser: data.superuser as boolean | undefined,
+      projects: data.projects as string[] | undefined,
     }
   })
 }
@@ -218,6 +222,7 @@ export function getAuthorBySlug(slug: string): (Author & { body: string }) | nul
     user_groups: data.user_groups as string[] | undefined,
     bio: data.bio as string | undefined,
     superuser: data.superuser as boolean | undefined,
+    projects: data.projects as string[] | undefined,
     body: content,
   }
 }
@@ -248,7 +253,7 @@ export function getAllPublications(): Publication[] {
   return entries
     .map(({ slug, data }) => {
       const dateStr = data.date as string | undefined
-      const year = dateStr ? new Date(dateStr).getFullYear() : undefined
+      const year = dateStr ? new Date(dateStr).getUTCFullYear() : undefined
       return {
         slug,
         title: (data.title as string) ?? slug,
@@ -268,6 +273,7 @@ export function getAllPublications(): Publication[] {
         url_dataset: data.url_dataset as string | undefined,
         url_slides: data.url_slides as string | undefined,
         url_video: data.url_video as string | undefined,
+        projects: data.projects as string[] | undefined,
       } satisfies Publication
     })
     .sort((a, b) => (b.year ?? 0) - (a.year ?? 0))
@@ -310,7 +316,7 @@ export function getAllEvents(): Event[] {
   return entries
     .map(({ slug, data }) => {
       const dateStr = data.date as string | undefined
-      const year = dateStr ? new Date(dateStr).getFullYear() : undefined
+      const year = dateStr ? new Date(dateStr).getUTCFullYear() : undefined
       return {
         slug,
         title: (data.title as string) ?? slug,
@@ -319,6 +325,7 @@ export function getAllEvents(): Event[] {
         location: data.location as string | undefined,
         summary: data.summary as string | undefined,
         abstract: data.abstract as string | undefined,
+        award: data.award as string | undefined,
         date: dateStr,
         year,
         authors: data.authors as string[] | undefined,

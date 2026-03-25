@@ -1,8 +1,8 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Transcultural validation of the FG-COMPASS"
-summary: ""
+title: "Transcultural validation of the Furtado-Gallagher Children Observational Movement Pattern Assessment System (FG-COMPASS)"
+summary: "Adapting the FG-COMPASS to Portuguese-speaking populations, ensuring cultural relevance and psychometric soundness."
 authors: [admin, Oldemar Mazzardo]
 tags: [Furtado]
 categories: []
@@ -39,6 +39,6 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-This project aims to collect validity and reliability evidence for the Portuguese version of the FG-COMPASS.
+This project aims to collect validity and reliability evidence for the Portuguese version of the FG-COMPASS, which involves adapting the Furtado-Gallagher Children Observational Movement Pattern Assessment System (FG-COMPASS) to Portuguese-speaking populations, ensuring that the instrument is culturally relevant and psychometrically sound for use in these contexts.
 
 You may also view this project on [Research Gate](https://bit.ly/3nkptVk).

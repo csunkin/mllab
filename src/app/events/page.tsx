@@ -45,6 +45,13 @@ export default function EventsPage() {
                 {event.title}
               </h2>
 
+              {event.award && (
+                <div className="flex items-start gap-2 mb-3 bg-yellow-50 text-yellow-800 p-3 rounded-lg border border-yellow-200">
+                  <span aria-hidden="true" className="text-lg leading-none">🏆</span>
+                  <p className="text-sm font-medium">{event.award}</p>
+                </div>
+              )}
+
               {event.event && (
                 <p className="text-sm text-blue-700 font-medium mb-1">
                   {event.event_url ? (

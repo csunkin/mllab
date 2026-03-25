@@ -8,7 +8,7 @@ authors:
   - "admin"
 
 # Role/position
-role: Associate Professor
+role: Professor
 
 # Organizations/Affiliations
 organizations:
@@ -52,6 +52,12 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.co.uk/citations?hl=en&user=k_S9WIoAAAAJ
+- icon: globe
+  icon_pack: fas
+  link: https://drfurtado.github.io/site
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0003-3847-6314
 # icon: github
 #  icon_pack: fab
 #  link: https://github.com/gcushen
@@ -70,9 +76,20 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Lab Coordinators
+- Lab Director
+
+projects:
+- kinderkinetics
+- of-psychometric-psfms
+- of-fgcompass-nonenglish
+- of-fgcompass-english
+- of-pa-and-motor-skills
 ---
 
-Dr. Furtado received a B.A. in Physical Education from the Federal University of Parana, Curitiba, PR - Brazil. He earned his M.S. and Ph.D. degrees in Motor Behavior from the University of Pittsburgh, PA.
+Dr. Furtado received a **B.A. in Physical Education** from the Federal University of Paraná, Curitiba, PR — Brazil. He earned his **M.S. and Ph.D. degrees in Motor Behavior** from the University of Pittsburgh, PA.
 
-Dr. Furtado's line of research focuses on two main areas: (1) validation of observational models in psychomotor assessment instruments and (2) the relationship between motor skill competence, perceived motor competence, physical activity levels, and body composition.
+**Research Interests**
+
+- Validation of observational models in psychomotor assessment instruments
+- Motor skill competence, perceived competence, physical activity, and body composition
+- Application of artificial intelligence to automate the recognition and evaluation of fundamental movement skills

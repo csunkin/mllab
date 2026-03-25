@@ -5,9 +5,9 @@ title: Anti-Fat Bias by Professors Teaching Physical Education Majors
 subtitle: ''
 summary: ''
 authors:
-- Fabio Fontana
+- "fabio-fontana"
 - admin
-- Oldemar Mazzardo
+- "oldemar-mazzardo"
 - Deockki Hong
 - Wagner de Campos
 tags: []

@@ -1,4 +1,4 @@
-import { getAllAuthorSlugs, getAuthorBySlug, markdownToHtml } from '@/lib/content'
+import { getAllAuthorSlugs, getAuthorBySlug, markdownToHtml, getAllProjects, getAllPublications } from '@/lib/content'
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -79,6 +79,17 @@ export default async function PersonPage({ params }: { params: { slug: string } 
 
   const org = author.organizations?.[0]
 
+  // Resolve linked projects by slug
+  const allProjects = getAllProjects()
+  const linkedProjects = (author.projects ?? [])
+    .map(s => allProjects.find(p => p.slug === s))
+    .filter(Boolean) as typeof allProjects
+
+  // Find related publications
+  const relatedPublications = getAllPublications().filter(pub => 
+    pub.authors?.includes(author.slug) || pub.authors?.includes(author.title)
+  )
+
   return (
     <main className="min-h-screen bg-white">
       <div className="max-w-3xl mx-auto px-4 py-12">
@@ -96,13 +107,13 @@ export default async function PersonPage({ params }: { params: { slug: string } 
             <Image
               src={author.avatar}
               alt={author.title}
-              width={120}
-              height={120}
-              className="rounded-full object-cover flex-shrink-0 border border-gray-200"
+              width={144}
+              height={144}
+              className="rounded-full object-cover w-36 h-36 flex-shrink-0 border border-gray-200"
               unoptimized
             />
           ) : (
-            <div className="w-28 h-28 rounded-full bg-blue-100 flex items-center justify-center text-3xl text-blue-500 font-bold flex-shrink-0">
+            <div className="w-36 h-36 rounded-full bg-blue-100 flex items-center justify-center text-5xl text-blue-500 font-bold flex-shrink-0">
               {author.title.charAt(0)}
             </div>
           )}
@@ -156,6 +167,98 @@ export default async function PersonPage({ params }: { params: { slug: string } 
               className="prose max-w-none text-gray-700 prose-a:text-blue-700 prose-headings:text-gray-900"
               dangerouslySetInnerHTML={{ __html: bioHtml }}
             />
+          </section>
+        )}
+
+        {/* Related Publications */}
+        {relatedPublications.length > 0 && (
+          <section className="mb-10">
+            <h2 className="text-lg font-semibold text-gray-900 mb-4">Related Publications</h2>
+            <div className="flex flex-col gap-5">
+              {relatedPublications.map(pub => (
+                <article key={pub.slug} className="group">
+                  <div className="flex items-baseline gap-2 mb-1">
+                    {pub.year && (
+                      <span className="text-xs font-semibold tracking-wider text-blue-700 bg-blue-50 px-2 py-0.5 rounded uppercase">
+                        {pub.year}
+                      </span>
+                    )}
+                    <h3 className="font-semibold text-gray-900 leading-snug group-hover:text-blue-700 transition-colors">
+                      {pub.title}
+                    </h3>
+                  </div>
+                  
+                  {pub.publication && (
+                    <p className="text-sm text-gray-600 mb-2 italic">
+                      {pub.publication}
+                    </p>
+                  )}
+
+                  <div className="flex flex-wrap gap-3 mt-1">
+                    {pub.doi && (
+                      <a
+                        href={`https://doi.org/${pub.doi.replace(/^https?:\/\/doi\.org\//, '')}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs font-medium text-gray-500 hover:text-blue-700 hover:underline inline-flex flex-wrap gap-x-1"
+                      >
+                        DOI ↗
+                      </a>
+                    )}
+                    {pub.url_pdf && (
+                      <a
+                        href={pub.url_pdf}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs font-medium text-gray-500 hover:text-blue-700 hover:underline inline-flex flex-wrap gap-x-1"
+                      >
+                        PDF ↗
+                      </a>
+                    )}
+                    {pub.url_code && (
+                      <a
+                        href={pub.url_code}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs font-medium text-gray-500 hover:text-blue-700 hover:underline inline-flex flex-wrap gap-x-1"
+                      >
+                        Code ↗
+                      </a>
+                    )}
+                  </div>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Current Research Projects */}
+        {linkedProjects.length > 0 && (
+          <section className="mb-10">
+            <h2 className="text-lg font-semibold text-gray-900 mb-4">Current Research Projects</h2>
+            <div className="grid gap-4 sm:grid-cols-2">
+              {linkedProjects.map(project => (
+                <div
+                  key={project.slug}
+                  className="bg-gray-50 border border-gray-200 rounded-xl p-5 flex flex-col hover:shadow-md transition-shadow"
+                >
+                  <h3 className="font-semibold text-gray-900 text-sm leading-snug mb-2">
+                    {project.title}
+                  </h3>
+                  {(project.summary || project.abstract) && (
+                    <p className="text-xs text-gray-600 leading-relaxed flex-1 mb-3">
+                      {project.summary || project.abstract}
+                    </p>
+                  )}
+                  <Link
+                    href={`/projects/${project.slug}/`}
+                    className="text-xs font-medium text-blue-700 hover:underline mt-auto"
+                  >
+                    More Info →
+                  </Link>
+                </div>
+              ))}
+            </div>
           </section>
         )}
 

@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Factors associated with the development of basic motor skills and physical fitness in elementary school students"
-summary: ""
+summary: "Identifying prevalence of motor skill deficits and associations with sociodemographic, anthropometric, and physical fitness variables in Brazilian elementary school students."
 authors: [admin, Oldemar Mazzardo]
 tags: [Furtado]
 date: 2021-03-23T23:05:09-07:00
