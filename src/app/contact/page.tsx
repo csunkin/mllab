@@ -17,7 +17,7 @@ export default function ContactPage() {
         <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
           <h2 className="font-semibold text-gray-900 text-lg mb-4">Lab Director</h2>
           <p className="font-medium text-gray-900 mb-1">Dr. Ovande Furtado Jr</p>
-          <p className="text-sm text-gray-500 mb-4">Associate Professor · Kinesiology</p>
+          <p className="text-sm text-gray-500 mb-4">Professor · Kinesiology</p>
           <ul className="space-y-3">
             <li>
               <SafeEmailLink
