@@ -21,52 +21,45 @@ export default function HomePage() {
     <>
       {/* Hero */}
       <section className="bg-white border-b border-gray-100 py-20">
-        <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-14">
-          <div className="flex-1">
-            <span className="inline-block bg-blue-50 text-blue-700 text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full mb-6">
+        <div className="max-w-3xl mx-auto px-6 flex flex-col items-center text-center gap-8">
+          <div className="flex flex-col items-center gap-3">
+            <Image
+              src="/mllab-logo.png"
+              alt="Move-Learn Lab"
+              width={700}
+              height={233}
+              className="w-auto h-auto max-w-sm md:max-w-xl"
+              unoptimized
+              priority
+            />
+            <span className="inline-block bg-blue-50 text-blue-700 text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full">
               California State University, Northridge · Kinesiology
             </span>
-            <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
-              Move-Learn<br />
-              <span className="text-blue-700">Lab</span>
-            </h1>
-            <p className="text-gray-500 text-lg leading-relaxed mb-8 max-w-xl">
-              The Move-Learn Lab is part of the Kinesiology Department at California State
-              University, Northridge. We study motor development, motor learning, and motor
-              control across the lifespan.
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <Link
-                href="/people/"
-                className="bg-blue-700 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-800 transition-colors shadow-sm"
-              >
-                Meet the Team
-              </Link>
-              <Link
-                href="/publications/"
-                className="bg-white border border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-medium hover:border-blue-400 hover:text-blue-700 transition-colors"
-              >
-                Our Research
-              </Link>
-              <a
-                href="https://twitter.com/MoveLearnLab"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white border border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-medium hover:border-blue-400 hover:text-blue-700 transition-colors"
-              >
-                Follow on X
-              </a>
-            </div>
           </div>
-          <div className="flex-shrink-0">
-            <Image
-              src="/media/welcome2.png"
-              alt="Move-Learn Lab"
-              width={340}
-              height={280}
-              className="rounded-2xl"
-              unoptimized
-            />
+          <p className="text-gray-500 text-lg leading-relaxed max-w-xl">
+            We study motor development, motor learning, and motor control across the lifespan.
+          </p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Link
+              href="/people/"
+              className="bg-blue-700 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-800 transition-colors shadow-sm"
+            >
+              Meet the Team
+            </Link>
+            <Link
+              href="/publications/"
+              className="bg-white border border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-medium hover:border-blue-400 hover:text-blue-700 transition-colors"
+            >
+              Our Research
+            </Link>
+            <a
+              href="https://twitter.com/MoveLearnLab"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white border border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-medium hover:border-blue-400 hover:text-blue-700 transition-colors"
+            >
+              Follow on X
+            </a>
           </div>
         </div>
       </section>
