@@ -2,6 +2,7 @@ import { getAllAuthorSlugs, getAuthorBySlug, markdownToHtml, getAllProjects, get
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
+import SafeEmailLink from '@/components/SafeEmailLink'
 
 export async function generateStaticParams() {
   return getAllAuthorSlugs().map(slug => ({ slug }))
@@ -138,14 +139,27 @@ export default async function PersonPage({ params }: { params: { slug: string } 
               <div className="flex items-center gap-3 mt-3">
                 {author.social.map((s, i) => {
                   const label = SOCIAL_LABELS[s.icon] ?? s.icon
-                  const href = s.icon === 'envelope' && !s.link.startsWith('mailto:')
-                    ? `mailto:${s.link}`
-                    : s.link
+                  
+                  if (s.icon === 'envelope') {
+                    return (
+                      <SafeEmailLink
+                        key={i}
+                        email={s.link}
+                        className="text-gray-400 hover:text-blue-600 transition-colors"
+                        aria-label={label}
+                        title={label}
+                      >
+                        <SocialIcon icon={s.icon} />
+                      </SafeEmailLink>
+                    )
+                  }
+
+                  const href = s.link
                   return (
                     <a
                       key={i}
                       href={href}
-                      target={s.icon === 'envelope' ? undefined : '_blank'}
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-400 hover:text-blue-600 transition-colors"
                       aria-label={label}

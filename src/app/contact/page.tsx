@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import SafeEmailLink from '@/components/SafeEmailLink'
 
 export const metadata: Metadata = { title: 'Contact' }
 
@@ -19,16 +20,16 @@ export default function ContactPage() {
           <p className="text-sm text-gray-500 mb-4">Associate Professor · Kinesiology</p>
           <ul className="space-y-3">
             <li>
-              <a
-                href="mailto:ovandef@csun.edu"
+              <SafeEmailLink
+                email="ovandef@csun.edu"
                 className="flex items-center gap-2 text-sm text-blue-700 hover:underline"
               >
                 <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                 </svg>
-                ovandef@csun.edu
-              </a>
+                <span>ovandef<span className="hidden">null</span>&#64;csun.edu</span>
+              </SafeEmailLink>
             </li>
             <li>
               <a

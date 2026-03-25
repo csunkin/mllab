@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { getAllAuthors, markdownToHtml } from '@/lib/content'
+import SafeEmailLink from '@/components/SafeEmailLink'
 
 export const metadata: Metadata = { title: 'People' }
 
@@ -115,12 +116,12 @@ function PersonCard({ author }: { author: ReturnType<typeof getAllAuthors>[numbe
       {/* Social icons */}
       <div className="flex gap-3 justify-center mb-4">
         {emailLink && (
-          <a href={emailLink.link} className="text-gray-400 hover:text-blue-700 transition-colors" aria-label="Email">
+          <SafeEmailLink email={emailLink.link} className="text-gray-400 hover:text-blue-700 transition-colors" aria-label="Email">
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
               <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
               <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
             </svg>
-          </a>
+          </SafeEmailLink>
         )}
         {twitterLink && (
           <a href={twitterLink.link} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-700 transition-colors" aria-label="Twitter / X">
