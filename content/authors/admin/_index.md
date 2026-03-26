@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Ovande Furtado Jr
+title: Ovande Furtado Jr., Ph.D.
 
 # Is this the primary user of the site?
 superuser: true

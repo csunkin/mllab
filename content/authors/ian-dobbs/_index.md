@@ -34,9 +34,9 @@ education:
     year: 2015
 
 social:
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/in/ian-dobbs-80aa7ba6/
+# - icon: linkedin
+#  icon_pack: fab
+#  link: https://www.linkedin.com/in/ian-dobbs-80aa7ba6/
 
 highlight_name: false
 

@@ -1,19 +1,10 @@
 ---
-title: "Lino Perez, MS"
-role: "Alumni"
+title: Lino Perez, MS
+role: "CSUN Lecturer (Alumni)"
+organizations:
+  - name: California State University, Northridge
 user_groups:
   - Alumni
-
-# Social/Contact links
-# icon: icon name from font-awesome, icons: icon pack (fas, fab, etc.)
-# icon: envelope for email, twitter for twitter/x, academicons for others.
-social:
-  - icon: x-twitter
-    icon_pack: fab
-    link: ""
-  - icon: linkedin
-    icon_pack: fab
-    link: ""
 
 # Education
 education:
@@ -22,4 +13,10 @@ education:
       institution: California State University, Northridge
       year: 2024
 ---
-Lino Perez is an alumnus of the Move-Learn Lab at California State University, Northridge.
+Lino Perez, M.S. in Kinesiology (Motor Behavior, CSUN 2017), is a dedicated alumnus of the Move-Learn Lab. He currently lectures in CSUN's Kinesiology Department, teaching motor behavior and activity courses while co-directing the Service Learning Program.
+
+**Supervisor:** Ovande Furtado Jr., Ph.D.
+
+## Publications
+
+- **Perez, L.**, & Furtado Jr., O. (2024). [Investigating Expert-Rater Agreement and Inter/Intra-Rater Reliability of Two Fundamental Movement Skills for the Locomotor Subscale of the FG-COMPASS](https://journals.sagepub.com/doi/abs/10.1177/00315125241272720). *Perceptual and Motor Skills*. doi:10.1177/00315125241272720
