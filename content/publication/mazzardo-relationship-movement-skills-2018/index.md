@@ -10,7 +10,9 @@ authors:
 - "fabio-fontana"
 - admin
 - Jere D. Gallagher
-tags: []
+tags:
+- "Motor Skills"
+- "Physical Activity"
 categories: []
 date: '2018-01-01'
 lastmod: 2021-03-19T01:01:51-07:00

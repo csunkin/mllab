@@ -8,7 +8,9 @@ summary: ''
 authors:
 - admin
 - Jere D. Gallagher
-tags: []
+tags:
+- "Motor Skills"
+- "Assessment & Reliability"
 categories: []
 date: '2018-01-01'
 lastmod: 2022-04-09T22:20:59-07:00

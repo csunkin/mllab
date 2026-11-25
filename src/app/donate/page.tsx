@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import SafeEmailLink from '@/components/SafeEmailLink'
 
 export const metadata: Metadata = {
   title: 'Donate',
@@ -37,19 +36,15 @@ export default function DonatePage() {
 
         <h2 className="text-2xl font-semibold text-gray-900 mt-12 mb-4">Need More Information?</h2>
         <p className="mb-6 leading-relaxed">
-          If you have specific questions about directing your gift toward the Move-Learn Lab, establishing a targeted scholarship, or if you need more details about our ongoing research initiatives, please contact the lab director:
+          If you have specific questions about directing your gift toward the Move-Learn Lab, establishing a targeted scholarship, or if you need more details about our ongoing research initiatives, please reach out to any of our lab co-directors.
         </p>
 
-        <div className="mt-6 p-6 bg-gray-50 rounded-xl border border-gray-200">
-          <p className="font-semibold text-gray-900 text-lg">Ovande Furtado Jr., Ph.D.</p>
-          <p className="text-gray-600 mb-3">Director, Move-Learn Lab</p>
-          <SafeEmailLink email="ovandef@csun.edu">
-            <svg className="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
-            <span>ovandef<span className="hidden">null</span>&#64;csun.edu</span>
-          </SafeEmailLink>
-        </div>
+        <Link
+          href="/contact/"
+          className="inline-flex items-center gap-2 bg-blue-700 text-white font-medium px-5 py-2.5 rounded-lg hover:bg-blue-800"
+        >
+          Contact the lab co-directors →
+        </Link>
       </div>
     </div>
   )

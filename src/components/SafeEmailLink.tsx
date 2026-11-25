@@ -1,34 +1,30 @@
-'use client'
+import EmailButton from './EmailButton'
 
-export default function SafeEmailLink({ 
-  email, 
-  children, 
+/**
+ * Bot-resistant email link. Rendered on the server: the address is encoded
+ * here and only the encoded form is sent to the browser. With `reveal`, the
+ * button swaps its label for the address after a click.
+ */
+export default function SafeEmailLink({
+  email,
+  reveal,
+  children,
   className,
   title,
-  'aria-label': ariaLabel
-}: { 
-  email: string, 
-  children: React.ReactNode, 
-  className?: string,
-  title?: string,
+  'aria-label': ariaLabel,
+}: {
+  email: string
+  reveal?: boolean
+  children: React.ReactNode
+  className?: string
+  title?: string
   'aria-label'?: string
 }) {
-  const cleanEmail = email.replace('mailto:', '')
-  const [user, domain] = cleanEmail.split('@')
-
-  const handleClick = (e: React.MouseEvent) => {
-    e.preventDefault()
-    window.location.href = `mailto:${user}@${domain}`
-  }
-
+  const clean = email.replace(/^mailto:/, '')
+  const enc = Buffer.from(clean.split('').reverse().join('')).toString('base64')
   return (
-    <button
-      onClick={handleClick}
-      className={className || "inline-flex items-center gap-2 text-blue-700 hover:text-blue-800 hover:underline font-medium bg-transparent border-none p-0 cursor-pointer text-base"}
-      title={title}
-      aria-label={ariaLabel}
-    >
+    <EmailButton enc={enc} reveal={reveal} className={className} title={title} aria-label={ariaLabel}>
       {children}
-    </button>
+    </EmailButton>
   )
 }

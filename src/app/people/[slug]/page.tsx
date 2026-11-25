@@ -1,4 +1,4 @@
-import { getAllAuthorSlugs, getAuthorBySlug, markdownToHtml, getAllProjects, getAllPublications } from '@/lib/content'
+import { getAllAuthors, getAllAuthorSlugs, getAuthorBySlug, markdownToHtml, getAllProjects, getAllPublications } from '@/lib/content'
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -86,6 +86,14 @@ export default async function PersonPage({ params }: { params: { slug: string } 
     .map(s => allProjects.find(p => p.slug === s))
     .filter(Boolean) as typeof allProjects
 
+  // Co-director this person works with, and people who work with this person
+  const allAuthors = getAllAuthors()
+  const advisor = author.advisor ? allAuthors.find(a => a.slug === author.advisor) : undefined
+  const mentees = allAuthors
+    .filter(a => a.advisor === author.slug && !a.user_groups?.includes('Alumni'))
+    .sort((a, b) => a.title.localeCompare(b.title))
+  const MENTEE_GROUPS = ['Graduate Students', 'Undergraduate Students', 'Research Collaborators']
+
   // Find related publications
   const relatedPublications = getAllPublications().filter(pub => 
     pub.authors?.includes(author.slug) || pub.authors?.includes(author.title)
@@ -123,6 +131,12 @@ export default async function PersonPage({ params }: { params: { slug: string } 
             <h1 className="text-3xl font-bold text-gray-900">{author.title}</h1>
             {author.role && (
               <p className="text-blue-700 font-medium mt-1">{author.role}</p>
+            )}
+            {advisor && (
+              <p className="text-gray-600 text-sm mt-1">
+                Working with{' '}
+                <Link href={`/people/${advisor.slug}/`} className="text-blue-700 hover:underline">{advisor.title}</Link>
+              </p>
             )}
             {org && (
               <p className="text-gray-500 text-sm mt-1">
@@ -181,6 +195,38 @@ export default async function PersonPage({ params }: { params: { slug: string } 
               className="prose max-w-none text-gray-700 prose-a:text-blue-700 prose-headings:text-gray-900"
               dangerouslySetInnerHTML={{ __html: bioHtml }}
             />
+          </section>
+        )}
+
+        {/* Students & collaborators working with this co-director */}
+        {mentees.length > 0 && (
+          <section className="mb-10">
+            <h2 className="text-lg font-semibold text-gray-900 mb-4">Students &amp; Collaborators</h2>
+            {MENTEE_GROUPS.concat(['Other']).map(g => {
+              const people = mentees.filter(m =>
+                g === 'Other' ? !MENTEE_GROUPS.some(x => m.user_groups?.includes(x)) : m.user_groups?.includes(g))
+              if (!people.length) return null
+              return (
+                <div key={g} className="mb-5">
+                  <h3 className="text-xs font-semibold uppercase tracking-wider text-gray-500 mb-2">{g}</h3>
+                  <div className="grid gap-3 sm:grid-cols-2">
+                    {people.map(m => (
+                      <Link key={m.slug} href={`/people/${m.slug}/`} className="flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-blue-300 hover:bg-blue-50/40 transition-colors">
+                        {m.avatar ? (
+                          <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${m.avatar}`} alt={m.title} width={48} height={48} className="w-12 h-12 rounded-full object-cover" unoptimized />
+                        ) : (
+                          <div className="w-12 h-12 rounded-full bg-slate-200 flex items-center justify-center text-slate-500 font-bold">{m.title.charAt(0)}</div>
+                        )}
+                        <div>
+                          <p className="text-sm font-medium text-gray-900">{m.title}</p>
+                          {m.role && <p className="text-xs text-gray-500">{m.role}</p>}
+                        </div>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )
+            })}
           </section>
         )}
 

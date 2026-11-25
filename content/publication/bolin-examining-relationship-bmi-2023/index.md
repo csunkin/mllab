@@ -12,4 +12,7 @@ publication: "Journal of Kinesiology & Wellness, 12(1), 30–37"
 featured: false
 projects:
 - of-pa-and-motor-skills
+tags:
+- "Motor Skills"
+- "Obesity & Weight Bias"
 ---

@@ -18,4 +18,7 @@ featured: false
 projects:
 - of-fgcompass-english
 - of-pa-and-motor-skills
+tags:
+- "Motor Skills"
+- "Physical Fitness"
 ---

@@ -5,6 +5,7 @@
  *
  * Copies:
  *   content/authors/<slug>/avatar.*  →  public/authors/<slug>/avatar.*
+ *   content/publication/<slug>/cover.* →  public/publications/<slug>/cover.*
  *   static/media/**                  →  public/media/**
  */
 
@@ -52,6 +53,23 @@ if (fs.existsSync(authorsDir)) {
         const dest = path.join(publicAuthorsDir, slug, file)
         copyFile(src, dest)
         console.log(`Copied avatar: ${src} → ${dest}`)
+      }
+    }
+  }
+}
+
+// 1b. Copy publication journal covers
+const pubsDir = path.join(ROOT, 'content', 'publication')
+const publicPubsDir = path.join(ROOT, 'public', 'publications')
+
+if (fs.existsSync(pubsDir)) {
+  for (const slug of fs.readdirSync(pubsDir)) {
+    const pubDir = path.join(pubsDir, slug)
+    if (!fs.statSync(pubDir).isDirectory()) continue
+    for (const file of fs.readdirSync(pubDir)) {
+      if (/^cover\./i.test(file)) {
+        copyFile(path.join(pubDir, file), path.join(publicPubsDir, slug, file))
+        console.log(`Copied cover: ${slug}/${file}`)
       }
     }
   }

@@ -44,6 +44,8 @@ export interface Author {
   bio?: string
   superuser?: boolean
   projects?: string[]
+  /** Slug of the lab co-director a student/collaborator works with */
+  advisor?: string
 }
 
 export interface Publication {
@@ -69,6 +71,8 @@ export interface Publication {
   url_source?: string
   url_video?: string
   projects?: string[]
+  cover?: string
+  status?: string
 }
 
 export interface Project {
@@ -177,6 +181,7 @@ export function getAllAuthors(): Author[] {
       bio: data.bio as string | undefined,
       superuser: data.superuser as boolean | undefined,
       projects: data.projects as string[] | undefined,
+      advisor: data.advisor as string | undefined,
     }
   })
 }
@@ -226,6 +231,7 @@ export function getAuthorBySlug(slug: string): (Author & { body: string }) | nul
     bio: data.bio as string | undefined,
     superuser: data.superuser as boolean | undefined,
     projects: data.projects as string[] | undefined,
+    advisor: data.advisor as string | undefined,
     body: content,
   }
 }
@@ -248,6 +254,15 @@ export function resolveAuthors(raw: string[] | undefined, nameMap: Map<string, s
 // ---------------------------------------------------------------------------
 // Publications
 // ---------------------------------------------------------------------------
+
+/** Journal cover image: content/publication/<slug>/cover.{jpg,jpeg,png,webp} (copied to public/ by copy-media.js) */
+function findPublicationCover(slug: string): string | undefined {
+  const base = path.join(CONTENT_DIR, 'publication', slug)
+  for (const ext of ['jpg', 'jpeg', 'png', 'webp', 'JPG', 'PNG']) {
+    if (fs.existsSync(path.join(base, `cover.${ext}`))) return `/publications/${slug}/cover.${ext}`
+  }
+  return undefined
+}
 
 export function getAllPublications(): Publication[] {
   const dir = path.join(CONTENT_DIR, 'publication')
@@ -277,6 +292,8 @@ export function getAllPublications(): Publication[] {
         url_slides: data.url_slides as string | undefined,
         url_video: data.url_video as string | undefined,
         projects: data.projects as string[] | undefined,
+        cover: findPublicationCover(slug),
+        status: (data.status as string | undefined) ?? 'published',
       } satisfies Publication
     })
     .sort((a, b) => (b.year ?? 0) - (a.year ?? 0))

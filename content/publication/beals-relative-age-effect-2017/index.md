@@ -8,7 +8,8 @@ authors:
 - Thomas C. Beals
 - admin
 - "fabio-fontana"
-tags: []
+tags:
+- "Sport Performance"
 categories: []
 date: '2017-01-01'
 lastmod: 2021-03-19T01:01:50-07:00

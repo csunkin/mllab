@@ -13,9 +13,21 @@ export const metadata: Metadata = {
 }
 
 export default function HomePage() {
-  const publications = getAllPublications().slice(0, 3)
+  // Home page shows only articles that are out (published or online first), never under review or in press
+  const publications = getAllPublications().filter(p => p.status === 'published' || p.status === 'online-first').slice(0, 3)
   const projects = getAllProjects()
-  const authors = getAllAuthors().filter(a => !a.user_groups?.some(g => g.toLowerCase().includes('student')))
+  const allAuthors = getAllAuthors()
+
+  // Group projects by co-director (founding director first, then by last name), as on the Projects page
+  const lastName = (t: string) => t.replace(/,.*$/, '').trim().split(/\s+/).pop() ?? t
+  const directors = allAuthors
+    .filter(a => a.user_groups?.includes('Lab Directors'))
+    .sort((a, b) => Number(!!b.superuser) - Number(!!a.superuser) || lastName(a.title).localeCompare(lastName(b.title)))
+  const leadOf = (p: (typeof projects)[number]) => p.authors?.find(a => directors.some(d => d.slug === a))
+  const projectGroups = [
+    ...directors.map(d => ({ key: d.slug, name: d.title, href: `/projects/#lead-${d.slug}`, items: projects.filter(p => leadOf(p) === d.slug) })),
+    { key: 'other', name: 'Other Projects', href: '/projects/#lead-other', items: projects.filter(p => !leadOf(p)) },
+  ].filter(g => g.items.length > 0)
 
   return (
     <>
@@ -116,66 +128,47 @@ export default function HomePage() {
               View all →
             </Link>
           </div>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {projects.map(project => (
-              <article
-                key={project.slug}
-                className="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow p-6 flex flex-col"
-              >
-                <h3 className="font-semibold text-gray-900 text-base leading-snug mb-2">
-                  {project.title}
-                </h3>
-                {project.summary && (
-                  <p className="text-sm text-gray-600 line-clamp-4 flex-1">{project.summary}</p>
-                )}
-                {project.tags && project.tags.length > 0 && (
-                  <div className="flex flex-wrap gap-1 mt-3">
-                    {project.tags.map(tag => (
-                      <span key={tag} className="text-xs bg-blue-50 text-blue-700 px-2 py-0.5 rounded-full">
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                )}
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Team preview */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="flex items-baseline justify-between mb-10">
-            <h2 className="text-3xl font-bold text-gray-900">Our Team</h2>
-            <Link href="/people/" className="text-blue-700 text-sm font-medium hover:underline">
-              View all →
-            </Link>
-          </div>
-          <div className="flex flex-wrap gap-8 justify-center md:justify-start">
-            {authors.map(author => (
-              <div key={author.slug} className="flex flex-col items-center text-center w-36">
-                {author.avatar ? (
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${author.avatar}`}
-                    alt={author.title}
-                    width={144}
-                    height={144}
-                    className="rounded-full mb-3 object-cover w-36 h-36"
-                    unoptimized
-                  />
-                ) : (
-                  <div className="w-36 h-36 rounded-full bg-slate-200 mb-3 flex items-center justify-center text-slate-500 text-4xl font-bold">
-                    {author.title.charAt(0)}
-                  </div>
-                )}
-                <p className="font-medium text-gray-900 text-sm leading-tight">{author.title}</p>
-                {author.role && <p className="text-xs text-gray-500 mt-0.5">{author.role}</p>}
+          <div className="space-y-12">
+            {projectGroups.map(group => (
+              <div key={group.key}>
+                <div className="flex items-baseline gap-3 mb-4 border-b border-gray-100 pb-2">
+                  <h3 className="text-lg font-semibold text-gray-900">
+                    <Link href={group.href} className="hover:text-blue-700">{group.name}</Link>
+                  </h3>
+                  <span className="text-sm text-gray-500">
+                    {group.items.length} {group.items.length === 1 ? 'project' : 'projects'}
+                  </span>
+                </div>
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                {group.items.map(project => (
+                  <article
+                    key={project.slug}
+                    className="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow p-6 flex flex-col"
+                  >
+                    <h4 className="font-semibold text-gray-900 text-base leading-snug mb-2">
+                      {project.title}
+                    </h4>
+                    {project.summary && (
+                      <p className="text-sm text-gray-600 line-clamp-4 flex-1">{project.summary}</p>
+                    )}
+                    {project.tags && project.tags.length > 0 && (
+                      <div className="flex flex-wrap gap-1 mt-3">
+                        {project.tags.map(tag => (
+                          <span key={tag} className="text-xs bg-blue-50 text-blue-700 px-2 py-0.5 rounded-full">
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                  </article>
+                ))}
+              </div>
               </div>
             ))}
           </div>
         </div>
       </section>
+
     </>
   )
 }

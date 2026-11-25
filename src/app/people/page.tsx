@@ -8,7 +8,7 @@ export const metadata: Metadata = { title: 'People' }
 
 // Groups rendered in this order; In Memoriam is always last
 const GROUP_ORDER = [
-  'Lab Director',
+  'Lab Directors',
   'Associate Directors',
   'Principal Investigators',
   'Faculty',
@@ -33,6 +33,12 @@ export default async function PeoplePage() {
       bioHtml: a.bio ? await markdownToHtml(a.bio) : undefined,
     }))
   )
+
+  // "Dr. Last" label for a student's co-director
+  const advisorLabel = (slug?: string) => {
+    const a = slug ? authors.find(x => x.slug === slug) : undefined
+    return a ? `Dr. ${a.title.replace(/,.*$/, '').trim().split(/\s+/).filter(w => !/^(Jr\.?|Sr\.?|Dr\.?)$/i.test(w)).pop()}` : undefined
+  }
 
   // Group by user_groups
   const grouped = new Map<string, typeof authorsWithBio>()
@@ -71,7 +77,7 @@ export default async function PeoplePage() {
           </h2>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {grouped.get(group)!.map(author => (
-              <PersonCard key={author.slug} author={author} />
+              <PersonCard key={author.slug} author={author} advisorName={advisorLabel(author.advisor)} />
             ))}
           </div>
         </section>
@@ -84,7 +90,7 @@ type AuthorWithBio = Awaited<ReturnType<typeof PeoplePage>> extends never
   ? never
   : ReturnType<typeof getAllAuthors>[number] & { bioHtml?: string }
 
-function PersonCard({ author }: { author: ReturnType<typeof getAllAuthors>[number] & { bioHtml?: string } }) {
+function PersonCard({ author, advisorName }: { author: ReturnType<typeof getAllAuthors>[number] & { bioHtml?: string }; advisorName?: string }) {
   const twitterLink = author.social?.find(s => s.icon === 'twitter' || s.icon === 'x-twitter')
   const emailLink = author.social?.find(s => s.icon === 'envelope')
 
@@ -110,8 +116,12 @@ function PersonCard({ author }: { author: ReturnType<typeof getAllAuthors>[numbe
       <h3 className="font-semibold text-gray-900 text-sm leading-snug mb-1">{author.title}</h3>
       {author.role && <p className="text-xs text-blue-700 mb-1">{author.role}</p>}
       {author.organizations?.[0] && (
-        <p className="text-xs text-gray-400 mb-3">{author.organizations[0].name}</p>
+        <p className="text-xs text-gray-400 mb-1">{author.organizations[0].name}</p>
       )}
+      {advisorName && (
+        <p className="text-xs text-gray-500 mb-1">with {advisorName}</p>
+      )}
+      <div className="mb-2" />
 
       {/* Social icons */}
       <div className="flex gap-3 justify-center mb-4">

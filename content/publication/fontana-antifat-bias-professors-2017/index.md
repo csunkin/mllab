@@ -10,7 +10,9 @@ authors:
 - "oldemar-mazzardo"
 - Deockki Hong
 - Wagner de Campos
-tags: []
+tags:
+- "Obesity & Weight Bias"
+- "Teacher & Professional Preparation"
 categories: []
 date: '2017-01-01'
 lastmod: 2021-03-19T01:01:50-07:00

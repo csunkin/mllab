@@ -12,4 +12,7 @@ publication: "*Perceptual and Motor Skills*"
 featured: false
 projects:
 - of-fgcompass-english
+tags:
+- "Motor Skills"
+- "Assessment & Reliability"
 ---

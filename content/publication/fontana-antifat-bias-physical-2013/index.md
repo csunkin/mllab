@@ -10,7 +10,9 @@ authors:
 - Ripley Marston
 - "oldemar-mazzardo"
 - Jere D Gallagher
-tags: []
+tags:
+- "Obesity & Weight Bias"
+- "Teacher & Professional Preparation"
 categories: []
 date: '2013-01-01'
 lastmod: 2022-04-09T22:20:59-07:00

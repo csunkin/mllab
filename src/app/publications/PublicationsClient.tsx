@@ -2,7 +2,9 @@
 
 import { useState, useMemo } from 'react'
 import type { Publication } from '@/lib/content'
-import { getPubTypeLabel } from '@/lib/utils'
+import { getPubTypeLabel, getPubStatus, PUB_STATUSES } from '@/lib/utils'
+import Link from 'next/link'
+import JournalCover from '@/components/JournalCover'
 
 interface Props {
   publications: Publication[]
@@ -22,6 +24,7 @@ export default function PublicationsClient({
   const [activeType, setActiveType] = useState<string>('all')
   const [activeYear, setActiveYear] = useState<number | 'all'>('all')
   const [activeTag, setActiveTag] = useState<string>('all')
+  const [activeStatus, setActiveStatus] = useState<string>('all')
   const [search, setSearch] = useState('')
 
   const filtered = useMemo(() => {
@@ -32,6 +35,7 @@ export default function PublicationsClient({
       }
       if (activeYear !== 'all' && pub.year !== activeYear) return false
       if (activeTag !== 'all' && !(pub.tags ?? []).includes(activeTag)) return false
+      if (activeStatus !== 'all' && pub.status !== activeStatus) return false
       if (search.trim()) {
         const q = search.toLowerCase()
         const authors = (resolvedAuthorMap[pub.slug] ?? []).join(' ').toLowerCase()
@@ -46,7 +50,12 @@ export default function PublicationsClient({
       }
       return true
     })
-  }, [publications, resolvedAuthorMap, activeType, activeYear, activeTag, search])
+  }, [publications, resolvedAuthorMap, activeType, activeYear, activeTag, activeStatus, search])
+
+  const statusCounts = PUB_STATUSES.map(s => ({
+    ...s,
+    count: publications.filter(p => p.status === s.key).length,
+  })).filter(s => s.count > 0)
 
   const btnBase =
     'px-4 py-1.5 rounded-full text-sm font-medium border transition-colors whitespace-nowrap'
@@ -87,6 +96,30 @@ export default function PublicationsClient({
           ))}
         </div>
       </div>
+
+      {/* Status filter */}
+      {statusCounts.length > 1 && (
+        <div className="mb-4">
+          <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Status</p>
+          <div className="flex flex-wrap gap-2">
+            <button
+              onClick={() => setActiveStatus('all')}
+              className={`${btnBase} ${activeStatus === 'all' ? btnActive : btnInactive}`}
+            >
+              All
+            </button>
+            {statusCounts.map(s => (
+              <button
+                key={s.key}
+                onClick={() => setActiveStatus(s.key === activeStatus ? 'all' : s.key)}
+                className={`${btnBase} ${activeStatus === s.key ? btnActive : btnInactive}`}
+              >
+                {s.label} <span className="opacity-60">({s.count})</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Year filter */}
       {allYears.length > 1 && (
@@ -151,8 +184,12 @@ export default function PublicationsClient({
             return (
               <article
                 key={pub.slug}
-                className="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow p-6"
+                className="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow p-6 flex gap-5"
               >
+                <Link href={`/publications/${pub.slug}/`} className="flex-shrink-0" aria-label={pub.title}>
+                  <JournalCover pub={pub} />
+                </Link>
+                <div className="min-w-0 flex-1">
                 <div className="flex flex-wrap items-center gap-2 mb-3">
                   <span className="text-xs font-medium bg-blue-50 text-blue-700 px-2 py-1 rounded-full">
                     {getPubTypeLabel(pub.publication_types)}
@@ -160,6 +197,11 @@ export default function PublicationsClient({
                   {pub.year && (
                     <span className="text-xs font-medium bg-gray-100 text-gray-600 px-2 py-1 rounded-full">
                       {pub.year}
+                    </span>
+                  )}
+                  {pub.status && pub.status !== 'published' && (
+                    <span className={`text-xs font-medium px-2 py-1 rounded-full ${getPubStatus(pub.status).badge}`}>
+                      {getPubStatus(pub.status).label}
                     </span>
                   )}
                   {pub.featured && (
@@ -170,7 +212,9 @@ export default function PublicationsClient({
                 </div>
 
                 <h3 className="font-semibold text-gray-900 text-lg leading-snug mb-2">
-                  {pub.title}
+                  <Link href={`/publications/${pub.slug}/`} className="hover:text-blue-700">
+                    {pub.title}
+                  </Link>
                 </h3>
 
                 {resolvedAuthors.length > 0 && (
@@ -181,14 +225,6 @@ export default function PublicationsClient({
                   <p className="text-sm text-gray-500 italic mb-3">{pub.publication}</p>
                 )}
 
-                {pub.abstract && (
-                  <details className="mb-3">
-                    <summary className="text-sm text-blue-700 cursor-pointer font-medium hover:underline select-none">
-                      Abstract
-                    </summary>
-                    <p className="mt-2 text-sm text-gray-700 leading-relaxed">{pub.abstract}</p>
-                  </details>
-                )}
 
                 {pub.tags && pub.tags.length > 0 && (
                   <div className="flex flex-wrap gap-1 mb-3">
@@ -205,6 +241,12 @@ export default function PublicationsClient({
                 )}
 
                 <div className="flex flex-wrap gap-3 mt-2">
+                  <Link
+                    href={`/publications/${pub.slug}/`}
+                    className="text-xs font-medium text-blue-700 hover:underline"
+                  >
+                    {pub.abstract ? 'Abstract & details →' : 'Details →'}
+                  </Link>
                   {pub.doi && (
                     <a
                       href={`https://doi.org/${pub.doi}`}
@@ -225,6 +267,7 @@ export default function PublicationsClient({
                       PDF →
                     </a>
                   )}
+                </div>
                 </div>
               </article>
             )

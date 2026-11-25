@@ -9,8 +9,8 @@ authors:
 - admin
 - Jere D Gallagher
 tags:
-- Gross motor skills
-- Rating Scale Effectiveness
+- "Motor Skills"
+- "Assessment & Reliability"
 categories: []
 date: '2012-01-01'
 lastmod: 2022-04-09T22:20:59-07:00
